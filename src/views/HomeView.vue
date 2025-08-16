@@ -88,13 +88,10 @@
 
 <script setup>
 import { computed } from 'vue'
-import { useRoute } from 'vue-router'
 import GameGrid from '@/components/GameGrid.vue'
 import { games, gameCategories } from '@/data/games.js'
 import HeaderComponent from '@/components/HeaderComponent.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
-
-const route = useRoute()
 
 // 只显示有游戏的分类
 const displayCategories = computed(() => {

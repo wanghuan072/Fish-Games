@@ -40,44 +40,12 @@
 </template>
 
 <script setup>
-import { useRoute, useRouter } from 'vue-router'
-import { useHead } from '@vueuse/head'
+import { useRouter } from 'vue-router'
 import { blogs } from '@/data/blogs.js'
 import HeaderComponent from '@/components/HeaderComponent.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
 
-const route = useRoute()
 const router = useRouter()
-
-// 设置SEO数据
-useHead({
-  title: route.meta.seo?.title || 'Blog - Fish Games',
-  meta: [
-    {
-      name: 'description',
-      content:
-        route.meta.seo?.description || 'Read expert articles about fishkeeping and aquatic life',
-    },
-    {
-      name: 'keywords',
-      content: route.meta.seo?.keywords || 'fish blog, aquarium tips, fishkeeping articles',
-    },
-    { property: 'og:title', content: route.meta.seo?.title || 'Blog - Fish Games' },
-    {
-      property: 'og:description',
-      content:
-        route.meta.seo?.description || 'Read expert articles about fishkeeping and aquatic life',
-    },
-    { property: 'og:type', content: 'website' },
-    { name: 'twitter:card', content: 'summary' },
-    { name: 'twitter:title', content: route.meta.seo?.title || 'Blog - Fish Games' },
-    {
-      name: 'twitter:description',
-      content:
-        route.meta.seo?.description || 'Read expert articles about fishkeeping and aquatic life',
-    },
-  ],
-})
 
 // 格式化日期
 const formatDate = (dateString) => {

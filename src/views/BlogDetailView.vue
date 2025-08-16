@@ -63,7 +63,6 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import { useHead } from '@vueuse/head'
 import { blogs } from '@/data/blogs.js'
 import HeaderComponent from '@/components/HeaderComponent.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
@@ -84,41 +83,6 @@ const formatDate = (dateString) => {
     day: 'numeric',
   })
 }
-
-// 设置SEO数据
-useHead(
-  computed(() => {
-    if (!blog.value || !blog.value.seo) {
-      return {
-        title: 'Article | Fish Games Blog',
-        meta: [
-          {
-            name: 'description',
-            content: 'Read expert articles about fishkeeping and aquatic life',
-          },
-          { name: 'keywords', content: 'fish blog, aquarium tips' },
-        ],
-      }
-    }
-
-    return {
-      title: blog.value.seo.title,
-      meta: [
-        { name: 'description', content: blog.value.seo.description },
-        { name: 'keywords', content: blog.value.seo.keywords },
-        { property: 'og:title', content: blog.value.seo.title },
-        { property: 'og:description', content: blog.value.seo.description },
-        { property: 'og:image', content: blog.value.imageUrl },
-        { property: 'og:type', content: 'article' },
-        { property: 'article:published_time', content: blog.value.publishDate },
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: blog.value.seo.title },
-        { name: 'twitter:description', content: blog.value.seo.description },
-        { name: 'twitter:image', content: blog.value.imageUrl },
-      ],
-    }
-  })
-)
 
 // 模拟加载
 onMounted(() => {

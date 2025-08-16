@@ -58,17 +58,23 @@
         <h3 class="section-title">Game Categories</h3>
         <ul class="footer-links">
           <li>
-            <router-link to="/games/great-fishing" class="footer-link">Great Fishing</router-link>
+            <router-link to="/games/category/fishing" class="footer-link"
+              >Fishing Simulation Games</router-link
+            >
           </li>
           <li>
-            <router-link to="/games/growing-fish" class="footer-link">Growing Fish</router-link>
+            <router-link to="/games/category/aquarium" class="footer-link"
+              >Aquarium & Fish Breeding Games</router-link
+            >
           </li>
           <li>
-            <router-link to="/games/save-the-fish" class="footer-link">Save the Fish</router-link>
+            <router-link to="/games/category/adventure" class="footer-link"
+              >Fish Action & Adventure Games</router-link
+            >
           </li>
           <li>
-            <router-link to="/games/fishing-with-friends" class="footer-link"
-              >Fishing with Friends</router-link
+            <router-link to="/games/category/puzzle" class="footer-link"
+              >Fish-themed Puzzle & Match Games</router-link
             >
           </li>
         </ul>
