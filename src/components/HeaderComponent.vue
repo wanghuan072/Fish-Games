@@ -3,7 +3,7 @@
     <div class="header-content">
       <div class="logo">
         <img class="logo-icon" src="/images/logo.png" alt="Fish Games" />
-        <span class="brand-name">Fish Games</span>
+        <span class="brand-name">Fishing Games</span>
       </div>
 
       <!-- 汉堡菜单按钮 -->

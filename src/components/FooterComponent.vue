@@ -5,7 +5,7 @@
       <div class="footer-brand">
         <div class="brand-logo">
           <img class="logo-icon" src="/images/logo.png" alt="Fish Games" />
-          <span class="brand-name">Fish Games</span>
+          <span class="brand-name">Fishing Games</span>
         </div>
         <p class="brand-description">
           Immersive aquatic gaming experience that challenges your strategic thinking and creates
