@@ -1,5 +1,41 @@
 export const games = [
     {
+        "id": 27,
+        "title": "Fun Fishing Frenzy",
+        "addressBar": "fun-fishing-frenzy",
+        "publishDate": "2025-08-14",
+        "imageUrl": "/images/games/fish-27.webp",
+        "imageAlt": "A chaotic and colorful arcade game screen showing multiple cartoon characters rapidly fishing in a competitive, fast-paced environment with explosions and power-ups.",
+        "iframeUrl": "https://html5.gamemonetize.co/9jrwofskfifzdry1qdr1dhfbk8h3nt1x/",
+        "isDetail": true,
+        "isUpdated": false,
+        "isHot": false,
+        "isNew": false,
+        "seo": {
+            "title": "Fun Fishing Frenzy - Fast-Paced Arcade Fishing Game",
+            "description": "Ready for a fishing free-for-all? Fun Fishing Frenzy is a fast-paced, high-energy arcade game where you'll race against the clock and friends to catch the most fish in a wild, chaotic environment.",
+            "keywords": "fun fishing frenzy, arcade game, fast-paced fishing, competitive game, multiplayer fishing, action game, high score"
+        },
+        "categories": ["fishing"],
+        "size": "large",
+        "detailsHtml": `
+            <h3>Cast, Reel, and Win in the Fishing Frenzy!</h3>
+            <p>Get ready for a fishing experience like no other! **Fun Fishing Frenzy** is a rapid-fire, high-energy arcade game that throws you into a chaotic competition. It's a race against the clock and other players to see who can catch the most fish, earn the most points, and dominate the waters!</p>
+            
+            <h3>Game Features</h3>
+            <ul>
+                <li><b>Fast-Paced Gameplay:</b> With simple one-tap controls, you'll be casting and reeling in fish at lightning speed. The challenge is keeping up with the frenzy!</li>
+                <li><b>Crazy Power-Ups:</b> Grab awesome power-ups like bomb lures and multi-hooks to catch dozens of fish at once and blast your way to the top of the leaderboard.</li>
+                <li><b>Competitive Multiplayer:</b> Challenge your friends in local or online multiplayer modes to see who has the fastest fingers and the best fishing skills.</li>
+                <li><b>Vibrant & Zany World:</b> Enjoy a cheerful and colorful cartoon world filled with wacky fish, crazy characters, and non-stop action.</li>
+            </ul>
+            
+            <h3>The Ultimate Fishing Showdown</h3>
+            <p>This game is perfect for a quick burst of fun and a great way to settle who's the true fishing champion among your friends. So, what are you waiting for? Dive into the **Fun Fishing Frenzy** and get ready for a wild ride!</p>
+        `
+    },
+
+    {
         "id": 2,
         "title": "Forest Lake",
         "addressBar": "forest-lake",
@@ -17,7 +53,7 @@ export const games = [
             "keywords": "forest lake game, fishing game, idle game, adventure game, fantasy fishing, relaxing game, magical creatures, hand-drawn graphics"
         },
         "categories": ["fishing"],
-        "size": "large",
+        "size": "small",
         "detailsHtml": `
             <h3>Explore the Mysteries of Forest Lake</h3>
             <p>Step into the tranquil world of **Forest Lake**, a beautifully crafted fishing game that combines the serenity of nature with the thrill of discovery. This isn't just any lake—it's a magical place filled with secrets, mythical creatures, and fish you've never seen before.</p>
@@ -356,42 +392,6 @@ export const games = [
             
             <h3>The Call of the Wild</h3>
             <p>Prepare for a fishing experience like no other. **The Angler** offers the perfect blend of a peaceful retreat and a challenging sport. Grab your gear and answer the call of the wild today!</p>
-        `
-    },
-
-    {
-        "id": 27,
-        "title": "Fun Fishing Frenzy",
-        "addressBar": "fun-fishing-frenzy",
-        "publishDate": "2025-08-14",
-        "imageUrl": "/images/games/fish-27.webp",
-        "imageAlt": "A chaotic and colorful arcade game screen showing multiple cartoon characters rapidly fishing in a competitive, fast-paced environment with explosions and power-ups.",
-        "iframeUrl": "https://html5.gamemonetize.co/9jrwofskfifzdry1qdr1dhfbk8h3nt1x/",
-        "isDetail": true,
-        "isUpdated": false,
-        "isHot": false,
-        "isNew": false,
-        "seo": {
-            "title": "Fun Fishing Frenzy - Fast-Paced Arcade Fishing Game",
-            "description": "Ready for a fishing free-for-all? Fun Fishing Frenzy is a fast-paced, high-energy arcade game where you'll race against the clock and friends to catch the most fish in a wild, chaotic environment.",
-            "keywords": "fun fishing frenzy, arcade game, fast-paced fishing, competitive game, multiplayer fishing, action game, high score"
-        },
-        "categories": ["fishing"],
-        "size": "small",
-        "detailsHtml": `
-            <h3>Cast, Reel, and Win in the Fishing Frenzy!</h3>
-            <p>Get ready for a fishing experience like no other! **Fun Fishing Frenzy** is a rapid-fire, high-energy arcade game that throws you into a chaotic competition. It's a race against the clock and other players to see who can catch the most fish, earn the most points, and dominate the waters!</p>
-            
-            <h3>Game Features</h3>
-            <ul>
-                <li><b>Fast-Paced Gameplay:</b> With simple one-tap controls, you'll be casting and reeling in fish at lightning speed. The challenge is keeping up with the frenzy!</li>
-                <li><b>Crazy Power-Ups:</b> Grab awesome power-ups like bomb lures and multi-hooks to catch dozens of fish at once and blast your way to the top of the leaderboard.</li>
-                <li><b>Competitive Multiplayer:</b> Challenge your friends in local or online multiplayer modes to see who has the fastest fingers and the best fishing skills.</li>
-                <li><b>Vibrant & Zany World:</b> Enjoy a cheerful and colorful cartoon world filled with wacky fish, crazy characters, and non-stop action.</li>
-            </ul>
-            
-            <h3>The Ultimate Fishing Showdown</h3>
-            <p>This game is perfect for a quick burst of fun and a great way to settle who's the true fishing champion among your friends. So, what are you waiting for? Dive into the **Fun Fishing Frenzy** and get ready for a wild ride!</p>
         `
     },
 
