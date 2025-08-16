@@ -14,7 +14,7 @@ export default defineConfig({
     vueJsx(),
     vueDevTools(),
     sitemap({
-      hostname: 'https://your-domain.com', // 替换为你的实际域名
+      hostname: 'https://fishinggames.co', // 替换为你的实际域名
       dynamicRoutes: getAllRoutes(),
       readable: true,
       exclude: ['/404', '/error'],

@@ -178,7 +178,7 @@ const router = createRouter({
 // 全局路由守卫 - 处理基础SEO
 router.beforeEach((to, from, next) => {
   // 设置canonical URL
-  const canonicalUrl = `https://your-domain.com${to.path}`
+  const canonicalUrl = `https://fishinggames.co${to.path}`
   setCanonicalUrl(canonicalUrl)
 
   // 先准备要应用的 SEO（只在最后统一 setPageSEO 一次）

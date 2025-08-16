@@ -5,7 +5,7 @@
 // 网站基础信息
 const siteInfo = {
   name: 'Fish Games',
-  url: 'https://your-domain.com',
+  url: 'https://fishinggames.co',
   logo: '/favicon.ico',
   description: 'Premium collection of fish and aquatic games online. Discover immersive underwater adventures, fishing simulations, and marine life experiences.',
   sameAs: [
@@ -201,7 +201,7 @@ export function insertStructuredData(schema) {
   // 移除已存在的结构化数据
   const existingScripts = document.querySelectorAll('script[type="application/ld+json"]')
   existingScripts.forEach(script => script.remove())
-  
+
   // 创建新的结构化数据脚本
   const script = document.createElement('script')
   script.type = 'application/ld+json'
@@ -217,7 +217,7 @@ export function insertMultipleStructuredData(schemas) {
   // 清除已存在的结构化数据
   const existingScripts = document.querySelectorAll('script[type="application/ld+json"]')
   existingScripts.forEach(script => script.remove())
-  
+
   // 插入新的结构化数据
   schemas.forEach(schema => {
     const script = document.createElement('script')

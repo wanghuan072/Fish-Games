@@ -1,64 +1,50 @@
 export const blogs = [
   {
     id: 1,
-    title: 'The Ultimate Guide to Aquarium Fish Care',
-    addressBar: 'ultimate-guide-aquarium-fish-care',
-    publishDate: '2024-01-15',
-    description: 'Learn essential tips and tricks for maintaining a healthy aquarium environment and keeping your fish happy and thriving.',
+    title: 'Fish Games Collection Recommendation',
+    addressBar: 'fish-games-collection',
+    publishDate: '2025-08-15',
+    description: 'A blog post for the Fish Games Collection website: introducing the purpose, selection criteria, gameplay highlights, platform coverage, and update plan, helping players quickly find fun, lightweight, and instant-play fish-themed games.',
     imageUrl: 'https://picsum.photos/800/400?id=101',
-    imageAlt: 'Beautiful aquarium with tropical fish and aquatic plants',
+    imageAlt: 'Fish games collection cover image: ocean view with fish leaping out of the water',
     seo: {
-      title: "Ultimate Guide to Aquarium Fish Care - Expert Tips | Fish Games Blog111",
-      description: "Discover expert tips for aquarium fish care, water quality management, feeding schedules, and maintenance routines. Keep your fish healthy and thriving.",
-      keywords: "aquarium fish care, fish tank maintenance, water quality, fish feeding, aquarium setup, tropical fish care, fishkeeping tips"
+      title: "Fish Games Collection｜One-stop hub for fishing & fish-catching mini games",
+      description: "This blog introduces the Fish Games Collection website, covering its purpose, game selection criteria, gameplay highlights, platform coverage, and update schedule, so you can quickly find enjoyable fishing and fish-catching mini games.",
+      keywords: "Fish games, fishing games, fish catching, casual games collection, fishing mini games"
     },
     detailsHtml: `
-      <p>Maintaining a healthy aquarium is both an art and a science. Whether you're a beginner or an experienced aquarist, understanding the fundamentals of fish care is essential for creating a thriving aquatic ecosystem.</p>
-      
-      <h2>Water Quality Management</h2>
-      <p>The foundation of successful fishkeeping lies in maintaining excellent water quality. Regular testing of pH levels, ammonia, nitrites, and nitrates is crucial for your fish's health.</p>
-      
-      <h3>Essential Water Parameters</h3>
-      <ul>
-        <li><strong>pH Level:</strong> Most tropical fish thrive in slightly acidic to neutral water (6.5-7.5)</li>
-        <li><strong>Temperature:</strong> Maintain consistent temperature appropriate for your fish species</li>
-        <li><strong>Ammonia & Nitrites:</strong> Should always be at 0 ppm</li>
-        <li><strong>Nitrates:</strong> Keep below 20 ppm through regular water changes</li>
-      </ul>
-      
-      <h2>Feeding Your Fish</h2>
-      <p>Proper nutrition is vital for fish health and longevity. Overfeeding is one of the most common mistakes new aquarists make.</p>
-      
-      <h3>Feeding Guidelines</h3>
-      <ul>
-        <li>Feed small amounts 2-3 times daily</li>
-        <li>Only provide what fish can consume in 2-3 minutes</li>
-        <li>Vary the diet with high-quality flakes, pellets, and occasional treats</li>
-        <li>Remove uneaten food to prevent water contamination</li>
-      </ul>
-      
-      <h2>Tank Maintenance Schedule</h2>
-      <p>Establishing a regular maintenance routine is key to long-term success:</p>
-      
-      <h3>Weekly Tasks</h3>
-      <ul>
-        <li>25-30% water change</li>
-        <li>Vacuum substrate</li>
-        <li>Clean algae from glass</li>
-        <li>Test water parameters</li>
-      </ul>
-      
-      <h3>Monthly Tasks</h3>
-      <ul>
-        <li>Clean filter media</li>
-        <li>Trim aquatic plants</li>
-        <li>Deep clean decorations</li>
-        <li>Check equipment functionality</li>
-      </ul>
-      
-      <p>By following these guidelines and maintaining consistency in your care routine, you'll create an environment where your aquatic friends can flourish for years to come.</p>
-    `,
+      <article class="blog-collection">
+        <h2>What is the Fish Games Collection?</h2>
+        <p>This collection is for players who enjoy light and casual entertainment, focusing on small-scale <strong>fishing</strong> and <strong>fish-catching</strong> titles for both web and mobile platforms. Our goal is to gather scattered fish-themed games into one clean entry point, so you can find “click and play” titles in the shortest time possible.</p>
+        <p>The concept is simple: no overly complex reviews, no jargon overload—just clear categories and direct play info, letting more players enjoy the thrill of catching fish or the calm of casting a line without pressure.</p>
+  
+        <h2>How We Select Games</h2>
+        <p>To ensure a consistent, relaxing experience, we use straightforward criteria:</p>
+        <ul>
+          <li><strong>Instant Play:</strong> Quick loading, simple flow, no lengthy tutorials.</li>
+          <li><strong>Low Barrier Controls:</strong> Core interactions are intuitive, playable with one hand or minimal keys.</li>
+          <li><strong>Time-Friendly:</strong> Short session length, perfect for commutes or breaks.</li>
+          <li><strong>Comfortable Presentation:</strong> Light but polished visuals and sound, with either a relaxing or upbeat style.</li>
+          <li><strong>Sustainable Updates:</strong> Active development or a healthy player community for long-term playability.</li>
+        </ul>
+  
+        <h2>Gameplay Highlights</h2>
+        <p>The fun in fish games often comes from “simple actions + instant feedback.” Here are some common highlights you’ll find in the collection:</p>
+        <ul>
+          <li><strong>Fast-Paced Catching:</strong> Clear combo and visual effects for instant satisfaction.</li>
+          <li><strong>Relaxed Fishing:</strong> Cast, bite, reel in—steady rhythm with both atmosphere and collection fun.</li>
+          <li><strong>Light Progression:</strong> Basic upgrades, fish catalogues, and daily goals for mild progression.</li>
+          <li><strong>Casual Social Features:</strong> Leaderboards or simple multiplayer lobbies for added engagement.</li>
+        </ul>
+  
+        <h2>Platforms & Device Support</h2>
+        <p>The collection prioritizes <strong>web</strong> and <strong>mobile</strong> versions for quick-access gameplay. Mobile titles are optimized for stable performance, while web games run smoothly on major browsers (Chrome, Edge, Safari). We also note whether each game supports offline play, touch controls, and portrait/landscape orientation.</p>
+  
+        <h2>Update Schedule & Feedback</h2>
+        <p>The collection is continuously updated, with new entries and tag refinements added over time. If you have a favorite <strong>fish game</strong> worth including, you can submit it via our site’s feedback channel—we’ll review and add it as soon as possible.</p>
+      </article>
+    `
+  }
 
-  },
 
 ]

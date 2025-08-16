@@ -1,7 +1,10 @@
 <template>
   <header class="site-header">
     <div class="header-content">
-      <div class="logo">Fish Games</div>
+      <div class="logo">
+        <img class="logo-icon" src="/images/logo.png" alt="Fish Games" />
+        <span class="brand-name">Fish Games</span>
+      </div>
 
       <!-- 汉堡菜单按钮 -->
       <button
@@ -78,7 +81,20 @@ const closeMenu = () => {
 }
 
 .logo {
-  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-icon {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #00d4ff, #8b5cf6);
+  border-radius: 12px;
+}
+
+.brand-name {
+  font-size: 1.5rem;
   font-weight: bold;
   background: linear-gradient(45deg, #00d4ff, #8b5cf6);
   -webkit-background-clip: text;

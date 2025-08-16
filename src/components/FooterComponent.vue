@@ -4,7 +4,7 @@
       <!-- 左侧品牌区域 -->
       <div class="footer-brand">
         <div class="brand-logo">
-          <div class="logo-icon">F</div>
+          <img class="logo-icon" src="/images/logo.png" alt="Fish Games" />
           <span class="brand-name">Fish Games</span>
         </div>
         <p class="brand-description">

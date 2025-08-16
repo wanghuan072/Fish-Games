@@ -16,7 +16,7 @@ Allow: /js/
 Allow: /favicon.ico
 
 # 站点地图位置
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://fishinggames.co/sitemap.xml
 
 # 爬取延迟（秒）- 对搜索引擎友好
 Crawl-delay: 1
