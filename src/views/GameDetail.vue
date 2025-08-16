@@ -24,11 +24,13 @@
           <span class="separator">></span>
           <router-link to="/games">Games</router-link>
           <span class="separator">></span>
-          <span class="current">{{ game.title }}</span>
+          <router-link :to="`/games/info/${game.addressBar}`">{{ game.title }}</router-link>
+          <span class="separator">></span>
+          <span class="current">Play</span>
         </nav>
 
         <!-- 游戏标题 -->
-        <h1 class="game-title">{{ game.title }}</h1>
+        <!-- <h1 class="game-title">{{ game.title }}</h1> -->
 
         <!-- 游戏详情布局容器 -->
         <div class="game-detail-layout">
@@ -69,14 +71,14 @@
 
               <!-- 游戏操作栏 -->
               <div class="game-controls">
-                <span class="game-title-controls">{{ game.title }}</span>
+                <h1 class="game-title-controls">{{ game.title }}</h1>
                 <div class="control-buttons">
                   <button
                     @click="togglePageFullscreen"
                     :disabled="!showGameplay"
                     class="control-button"
                     :class="{ disabled: !showGameplay }"
-                    title="网页全屏"
+                    title="Full screen webpage"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +101,7 @@
                     :disabled="!showGameplay"
                     class="control-button"
                     :class="{ disabled: !showGameplay }"
-                    title="全屏"
+                    title="Full screen"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -118,34 +120,6 @@
                       <line x1="3" y1="21" x2="10" y2="14"></line>
                     </svg>
                   </button>
-                </div>
-              </div>
-
-              <!-- 游戏标签 -->
-              <div v-if="!isPageFullscreen" class="game-meta">
-                <div class="game-categories">
-                  <span v-for="category in game.categories" :key="category" class="category-tag">
-                    {{ getCategoryName(category) }}
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <!-- 相关游戏侧边栏 -->
-            <div v-if="!isPageFullscreen" class="related-games-sidebar">
-              <div class="detail-games-grid">
-                <div
-                  v-for="detailGame in sidebarDetailGames"
-                  :key="detailGame.id"
-                  class="detail-game-card"
-                  @click="navigateToGame(detailGame)"
-                >
-                  <img
-                    :src="detailGame.imageUrl"
-                    :alt="detailGame.imageAlt"
-                    class="detail-game-image"
-                  />
-                  <h4 class="detail-game-title">{{ detailGame.title }}</h4>
                 </div>
               </div>
             </div>
@@ -171,16 +145,10 @@
           </div>
         </div>
 
-        <!-- About 区域 -->
-        <div class="game-about-section">
-          <h2 class="about-title">About This Game</h2>
-          <div v-html="game.detailsHtml" class="about-content"></div>
-        </div>
-
         <!-- 返回按钮 -->
-        <div class="navigation-actions">
+        <!-- <div class="navigation-actions">
           <router-link to="/games" class="back-button">← Back to Games</router-link>
-        </div>
+        </div> -->
       </div>
     </main>
 
@@ -217,9 +185,9 @@ const sidebarDetailGames = computed(() => {
   return detailGames.value.slice(0, 10)
 })
 
-// 底部详情游戏（超过10个的部分）
+// 底部详情游戏（展示全部详情游戏）
 const bottomDetailGames = computed(() => {
-  return detailGames.value.slice(10)
+  return detailGames.value
 })
 
 // 导航到游戏详情页
@@ -400,9 +368,7 @@ onUnmounted(() => {
 
 /* 主要内容区域 */
 .game-detail-main {
-  display: grid;
-  grid-template-columns: 1fr 220px;
-  gap: 1rem;
+  display: block;
   margin-bottom: 1rem;
 }
 
@@ -412,19 +378,6 @@ onUnmounted(() => {
   border-radius: 16px;
   border: 1px solid rgba(139, 92, 246, 0.2);
   padding: 1rem;
-}
-
-/* 相关游戏侧边栏 */
-.related-games-sidebar {
-  display: flex;
-  flex-direction: column;
-}
-
-/* 详情游戏网格（侧边栏 - 2列布局） */
-.detail-games-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
 }
 
 /* 更多详情游戏区域 */

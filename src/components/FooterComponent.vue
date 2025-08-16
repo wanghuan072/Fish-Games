@@ -4,8 +4,8 @@
       <!-- 左侧品牌区域 -->
       <div class="footer-brand">
         <div class="brand-logo">
-          <div class="logo-icon">F</div>
-          <span class="brand-name">Fish Games</span>
+          <img src="/images/logo.png" alt="Fishing Games" />
+          <span class="brand-name">Fishing Games</span>
         </div>
         <p class="brand-description">
           Immersive aquatic gaming experience that challenges your strategic thinking and creates
@@ -131,7 +131,7 @@
   margin-bottom: 1.5rem;
 }
 
-.logo-icon {
+.brand-logo img {
   width: 48px;
   height: 48px;
   background: linear-gradient(135deg, #00d4ff, #8b5cf6);

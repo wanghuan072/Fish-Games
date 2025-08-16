@@ -30,7 +30,7 @@ const router = createRouter({
       component: () => import('../views/HomeView.vue'),
       meta: {
         seo: {
-          title: 'Fish Games - Premium Aquatic Gaming Experience Online',
+          title: 'Fishing Games | Play all online fishing games for free',
           description: 'Dive into the best collection of fish games online. From deep sea adventures to aquarium building, discover immersive aquatic gaming experiences for all ages.',
           keywords: 'fish games, aquatic games, underwater games, ocean games, fishing games, marine games, sea adventure, online fish games'
         }
@@ -58,6 +58,18 @@ const router = createRouter({
       path: '/games/:addressBar',
       name: 'game-detail',
       component: () => import('../views/GameDetail.vue'),
+    },
+    {
+      path: '/games/info/:addressBar',
+      name: 'game-info',
+      component: () => import('../views/GameInfoView.vue'),
+      meta: {
+        seo: {
+          title: 'Game Info - Fish Games',
+          description: 'View game screenshots and information before playing the game.',
+          keywords: 'fish game info, game details, screenshots'
+        }
+      }
     },
     {
       path: '/hot',
@@ -228,6 +240,24 @@ router.beforeEach((to, from, next) => {
         generateGameSchema(game)
       )
       // 使用游戏自身 SEO 覆盖（若存在）
+      if (game.seo) {
+        seoToApply = game.seo
+      }
+    }
+  }
+
+  // 新的游戏信息页（/games/info/:addressBar） - 生成面包屑与实体 Schema，并应用游戏 SEO
+  if (to.name === 'game-info' && to.params?.addressBar) {
+    const game = games.find(g => g.addressBar === to.params.addressBar)
+    if (game) {
+      schemas.push(
+        generateBreadcrumbSchema([
+          { name: 'Home', url: '/' },
+          { name: 'Games', url: '/games' },
+          { name: game.title, url: `/games/info/${game.addressBar}` }
+        ]),
+        generateGameSchema(game)
+      )
       if (game.seo) {
         seoToApply = game.seo
       }

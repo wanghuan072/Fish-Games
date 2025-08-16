@@ -16,9 +16,21 @@
         @click="navigateToGame(game)"
       >
         <div class="badges">
-          <span v-if="game.isUpdated" class="badge badge-updated">Updated</span>
-          <span v-if="game.isHot" class="badge badge-hot">Hot</span>
-          <span v-if="game.isNew" class="badge badge-new">New</span>
+          <span
+            v-if="Array.isArray(game.badges) && game.badges.includes('updated')"
+            class="badge badge-updated"
+            >Updated</span
+          >
+          <span
+            v-if="Array.isArray(game.badges) && game.badges.includes('hot')"
+            class="badge badge-hot"
+            >Hot</span
+          >
+          <span
+            v-if="Array.isArray(game.badges) && game.badges.includes('new')"
+            class="badge badge-new"
+            >New</span
+          >
         </div>
         <img :src="game.imageUrl" :alt="game.imageAlt" class="game-image" />
         <h3 class="game-title">{{ game.title }}</h3>
@@ -75,13 +87,19 @@ const filteredGames = computed(() => {
   if (props.filterType) {
     switch (props.filterType) {
       case 'updated':
-        filtered = filtered.filter((game) => game.isUpdated)
+        filtered = filtered.filter(
+          (game) => Array.isArray(game.badges) && game.badges.includes('updated')
+        )
         break
       case 'hot':
-        filtered = filtered.filter((game) => game.isHot)
+        filtered = filtered.filter(
+          (game) => Array.isArray(game.badges) && game.badges.includes('hot')
+        )
         break
       case 'new':
-        filtered = filtered.filter((game) => game.isNew)
+        filtered = filtered.filter(
+          (game) => Array.isArray(game.badges) && game.badges.includes('new')
+        )
         break
       case 'detail':
         filtered = filtered.filter((game) => game.isDetail)
@@ -104,9 +122,9 @@ const filteredGames = computed(() => {
   return filtered
 })
 
-// 导航到游戏详情页
+// 导航到游戏信息页
 const navigateToGame = (game) => {
-  router.push(`/games/${game.addressBar}`)
+  router.push({ name: 'game-info', params: { addressBar: game.addressBar } })
 }
 </script>
 
