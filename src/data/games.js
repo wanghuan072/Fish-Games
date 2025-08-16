@@ -1,5 +1,41 @@
 export const games = [
     {
+        "id": 67,
+        "title": "Tiny Fishing",
+        "addressBar": "tiny-fishing",
+        "publishDate": "2025-08-16",
+        "imageUrl": "/images/games/fish-67.webp",
+        "imageAlt": "A minimalist and charming game screen showing a small boat with a tiny fishing rod in a calm body of water. A single line is cast, and a cluster of small, cute fish are swimming towards it.",
+        "iframeUrl": "https://tinyplay.io/game/tiny-fishing/",
+        "isDetail": true,
+        "isUpdated": false,
+        "isHot": true,
+        "isNew": false,
+        "seo": {
+            "title": "Tiny Fishing - A Simple & Addictive Casual Game",
+            "description": "Tiny Fishing is a simple, one-tap game that's big on fun! Cast your line, reel in as many fish as you can, and use your earnings to upgrade your gear and become the ultimate tiny angler.",
+            "keywords": "tiny fishing, fishing game, casual game, addictive game, simple game, fish game, high score"
+        },
+        "categories": ["fishing"],
+        "size": "large",
+        "detailsHtml": `
+            <h3>Small Game, Big Fun!</h3>
+            <p>Don't be fooled by the name; **Tiny Fishing** is a simple and incredibly addictive game that offers a satisfying challenge! The concept is easy: just tap to cast your line as deep as possible. As you reel it back in, you'll catch every fish that touches your hook. The deeper you go and the more fish you catch, the more money you'll earn to upgrade your gear and find rarer, more valuable fish!</p>
+            
+            <h3>Game Features</h3>
+            <ul>
+                <li><b>Simple One-Tap Controls:</b> The game is a breeze to learn. Just a single tap to cast and another to reel in. Anyone can play!</li>
+                <li><b>Addictive "Reeling" Gameplay:</b> The loop of casting your line and watching it fill up with fish is incredibly satisfying and keeps you coming back for more.</li>
+                <li><b>Upgrade Your Gear:</b> Use your earnings to buy a longer line to reach deeper waters and a better lure to attract rarer fish. The more you upgrade, the bigger your catches will be!</li>
+                <li><b>Discover Rare Fish:</b> There are dozens of different fish species to discover, each with a unique value and a different challenge to catch. Can you complete your collection?</li>
+            </ul>
+            
+            <h3>Are You Ready to Go Tiny?</h3>
+            <p>This is the perfect game for a quick break or a long play session. Get ready to cast, catch, and upgrade your way to the top of the leaderboards!</p>
+        `
+    },
+
+    {
         "id": 27,
         "title": "Fun Fishing Frenzy",
         "addressBar": "fun-fishing-frenzy",
@@ -17,7 +53,7 @@ export const games = [
             "keywords": "fun fishing frenzy, arcade game, fast-paced fishing, competitive game, multiplayer fishing, action game, high score"
         },
         "categories": ["fishing"],
-        "size": "large",
+        "size": "small",
         "detailsHtml": `
             <h3>Cast, Reel, and Win in the Fishing Frenzy!</h3>
             <p>Get ready for a fishing experience like no other! **Fun Fishing Frenzy** is a rapid-fire, high-energy arcade game that throws you into a chaotic competition. It's a race against the clock and other players to see who can catch the most fish, earn the most points, and dominate the waters!</p>
