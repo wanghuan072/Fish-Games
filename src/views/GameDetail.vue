@@ -363,7 +363,8 @@ onUnmounted(() => {
 
 /* 游戏详情布局容器 */
 .game-detail-layout {
-  margin-bottom: 3rem;
+  width: 80%;
+  margin: 0 auto 3rem auto;
 }
 
 /* 主要内容区域 */
@@ -434,10 +435,12 @@ onUnmounted(() => {
 /* 游戏主体容器 */
 .game-main-container {
   position: relative;
+  aspect-ratio: 16/9;
 }
 
 /* 游戏预览 */
 .game-preview {
+  height: 100%;
   cursor: pointer;
   border-radius: 16px;
   overflow: hidden;
@@ -446,7 +449,7 @@ onUnmounted(() => {
 
 .game-preview-bg {
   width: 100%;
-  height: 500px;
+  height: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -503,6 +506,7 @@ onUnmounted(() => {
 
 /* 游戏iframe */
 .game-iframe-container {
+  height: 100%;
   position: relative;
   border-radius: 16px;
   overflow: hidden;
@@ -511,7 +515,7 @@ onUnmounted(() => {
 
 .game-iframe {
   width: 100%;
-  height: 500px;
+  height: 100%;
   border: none;
   display: block;
   transition: all 0.3s ease;

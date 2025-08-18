@@ -1375,7 +1375,7 @@ export const games = [
         "imageUrl": "/images/games/fish-18.webp",
         "imageAlt": "A vibrant, animated game screen of a large, beautiful aquarium filled with different species of fish and colorful decorations.",
         "iframeUrl": "https://html5.gamemonetize.co/otc3j0k6lj9p8kilzh76cinpnbwr6ecu/",
-        "isDetail": true,
+        "isDetail": false,
         "stars": 5,
         "tags": ["fishing", "adventure"],
         "badges": ["new"],
