@@ -43,7 +43,7 @@ const router = createRouter({
       component: () => import('../views/GamesView.vue'),
       meta: {
         seo: {
-          title: 'All Games - Complete Fish Games Collection',
+          title: 'All Games - Complete Fishing Games Collection',
           description: 'Browse all fish games in one place. Discover classics and new titles across categories, with quick access to details.',
           keywords: 'fish games, all games, game collection, browse games, aquarium games'
         }
