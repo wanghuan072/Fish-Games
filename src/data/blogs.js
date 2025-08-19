@@ -5,7 +5,7 @@ export const blogs = [
     addressBar: 'fish-games-collection',
     publishDate: '2025-08-15',
     description: 'A blog post for the Fish Games Collection website: introducing the purpose, selection criteria, gameplay highlights, platform coverage, and update plan, helping players quickly find fun, lightweight, and instant-play fish-themed games.',
-    imageUrl: 'https://picsum.photos/800/400?id=101',
+    imageUrl: '/images/blog/blog-01.webp',
     imageAlt: 'Fish games collection cover image: ocean view with fish leaping out of the water',
     seo: {
       title: "Fish Games Collection｜One-stop hub for fishing & fish-catching mini games",

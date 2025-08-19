@@ -12,9 +12,9 @@
         <section class="legal-section">
           <h2>1. Information We Collect</h2>
           <p>
-            Fish Games collects information you provide directly to us, such as when you create an
-            account, contact us, or use our interactive features. This may include your name, email
-            address, and gameplay preferences.
+            Fishing Games collects information you provide directly to us, such as when you create
+            an account, contact us, or use our interactive features. This may include your name,
+            email address, and gameplay preferences.
           </p>
         </section>
 
@@ -93,27 +93,27 @@ import FooterComponent from '@/components/FooterComponent.vue'
 
 // 设置SEO数据
 useHead({
-  title: 'Privacy Policy - Fish Games',
+  title: 'Privacy Policy - Fishing Games',
   meta: [
     {
       name: 'description',
       content:
-        'Privacy Policy for Fish Games. Learn how we collect, use, and protect your personal information.',
+        'Privacy Policy for Fishing Games. Learn how we collect, use, and protect your personal information.',
     },
-    { name: 'keywords', content: 'privacy policy, data protection, fish games, user privacy' },
-    { property: 'og:title', content: 'Privacy Policy - Fish Games' },
+    { name: 'keywords', content: 'privacy policy, data protection, Fishing Games, user privacy' },
+    { property: 'og:title', content: 'Privacy Policy - Fishing Games' },
     {
       property: 'og:description',
       content:
-        'Privacy Policy for Fish Games. Learn how we collect, use, and protect your personal information.',
+        'Privacy Policy for Fishing Games. Learn how we collect, use, and protect your personal information.',
     },
     { property: 'og:type', content: 'website' },
     { name: 'twitter:card', content: 'summary' },
-    { name: 'twitter:title', content: 'Privacy Policy - Fish Games' },
+    { name: 'twitter:title', content: 'Privacy Policy - Fishing Games' },
     {
       name: 'twitter:description',
       content:
-        'Privacy Policy for Fish Games. Learn how we collect, use, and protect your personal information.',
+        'Privacy Policy for Fishing Games. Learn how we collect, use, and protect your personal information.',
     },
   ],
 })

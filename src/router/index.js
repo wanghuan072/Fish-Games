@@ -60,7 +60,7 @@ const router = createRouter({
       component: () => import('../views/GameDetail.vue'),
     },
     {
-      path: '/games/info/:addressBar',
+      path: '/info-games/:addressBar',
       name: 'game-info',
       component: () => import('../views/GameInfoView.vue'),
       meta: {
@@ -72,7 +72,7 @@ const router = createRouter({
       }
     },
     {
-      path: '/hot',
+      path: '/hot-games',
       name: 'hot-games',
       component: () => import('../views/HotGamesView.vue'),
       meta: {
@@ -84,7 +84,7 @@ const router = createRouter({
       }
     },
     {
-      path: '/new',
+      path: '/new-games',
       name: 'new-games',
       component: () => import('../views/NewGamesView.vue'),
       meta: {
@@ -96,7 +96,7 @@ const router = createRouter({
       }
     },
     {
-      path: '/updated',
+      path: '/updated-games',
       name: 'updated-games',
       component: () => import('../views/UpdatedGamesView.vue'),
       meta: {

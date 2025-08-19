@@ -12,7 +12,7 @@
         <section class="legal-section">
           <h2>1. Acceptance of Terms</h2>
           <p>
-            By accessing and using Fish Games, you accept and agree to be bound by the terms and
+            By accessing and using Fishing Games, you accept and agree to be bound by the terms and
             provision of this agreement. If you do not agree to abide by the above, please do not
             use this service.
           </p>
@@ -21,14 +21,14 @@
         <section class="legal-section">
           <h2>2. Use License</h2>
           <p>
-            Permission is granted to temporarily download one copy of Fish Games materials for
+            Permission is granted to temporarily download one copy of Fishing Games materials for
             personal, non-commercial transitory viewing only. This is the grant of a license, not a
             transfer of title, and under this license you may not:
           </p>
           <ul>
             <li>modify or copy the materials</li>
             <li>use the materials for any commercial purpose or for any public display</li>
-            <li>attempt to reverse engineer any software contained on Fish Games website</li>
+            <li>attempt to reverse engineer any software contained on Fishing Games website</li>
             <li>remove any copyright or other proprietary notations from the materials</li>
           </ul>
         </section>
@@ -36,8 +36,8 @@
         <section class="legal-section">
           <h2>3. Disclaimer</h2>
           <p>
-            The materials on Fish Games website are provided on an 'as is' basis. Fish Games makes
-            no warranties, expressed or implied, and hereby disclaims and negates all other
+            The materials on Fishing Games website are provided on an 'as is' basis. Fishing Games
+            makes no warranties, expressed or implied, and hereby disclaims and negates all other
             warranties including without limitation, implied warranties or conditions of
             merchantability, fitness for a particular purpose, or non-infringement of intellectual
             property or other violation of rights.
@@ -47,19 +47,19 @@
         <section class="legal-section">
           <h2>4. Limitations</h2>
           <p>
-            In no event shall Fish Games or its suppliers be liable for any damages (including,
+            In no event shall Fishing Games or its suppliers be liable for any damages (including,
             without limitation, damages for loss of data or profit, or due to business interruption)
-            arising out of the use or inability to use the materials on Fish Games website, even if
-            Fish Games or an authorized representative has been notified orally or in writing of the
-            possibility of such damage.
+            arising out of the use or inability to use the materials on Fishing Games website, even
+            if Fishing Games or an authorized representative has been notified orally or in writing
+            of the possibility of such damage.
           </p>
         </section>
 
         <section class="legal-section">
           <h2>5. Accuracy of Materials</h2>
           <p>
-            The materials appearing on Fish Games website could include technical, typographical, or
-            photographic errors. Fish Games does not warrant that any of the materials on its
+            The materials appearing on Fishing Games website could include technical, typographical,
+            or photographic errors. Fishing Games does not warrant that any of the materials on its
             website are accurate, complete, or current.
           </p>
         </section>
@@ -87,9 +87,9 @@
         <section class="legal-section">
           <h2>7. Modifications</h2>
           <p>
-            Fish Games may revise these terms of service for its website at any time without notice.
-            By using this website, you are agreeing to be bound by the then current version of these
-            terms of service.
+            Fishing Games may revise these terms of service for its website at any time without
+            notice. By using this website, you are agreeing to be bound by the then current version
+            of these terms of service.
           </p>
         </section>
 
@@ -123,27 +123,27 @@ import FooterComponent from '@/components/FooterComponent.vue'
 
 // 设置SEO数据
 useHead({
-  title: 'Terms of Use - Fish Games',
+  title: 'Terms of Use - Fishing Games',
   meta: [
     {
       name: 'description',
       content:
-        'Terms of Use for Fish Games. Learn about the rules and guidelines for using our gaming platform.',
+        'Terms of Use for Fishing Games. Learn about the rules and guidelines for using our gaming platform.',
     },
-    { name: 'keywords', content: 'terms of use, terms of service, fish games, user agreement' },
-    { property: 'og:title', content: 'Terms of Use - Fish Games' },
+    { name: 'keywords', content: 'terms of use, terms of service, Fishing Games, user agreement' },
+    { property: 'og:title', content: 'Terms of Use - Fishing Games' },
     {
       property: 'og:description',
       content:
-        'Terms of Use for Fish Games. Learn about the rules and guidelines for using our gaming platform.',
+        'Terms of Use for Fishing Games. Learn about the rules and guidelines for using our gaming platform.',
     },
     { property: 'og:type', content: 'website' },
     { name: 'twitter:card', content: 'summary' },
-    { name: 'twitter:title', content: 'Terms of Use - Fish Games' },
+    { name: 'twitter:title', content: 'Terms of Use - Fishing Games' },
     {
       name: 'twitter:description',
       content:
-        'Terms of Use for Fish Games. Learn about the rules and guidelines for using our gaming platform.',
+        'Terms of Use for Fishing Games. Learn about the rules and guidelines for using our gaming platform.',
     },
   ],
 })

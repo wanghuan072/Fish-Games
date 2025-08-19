@@ -4,7 +4,7 @@
 
     <main class="main-content">
       <div class="legal-header">
-        <h1>About Fish Games</h1>
+        <h1>About Fishing Games</h1>
         <p class="update-date">Last Updated: January 29, 2025</p>
       </div>
 
@@ -12,9 +12,9 @@
         <section class="legal-section">
           <h2>Our Mission</h2>
           <p>
-            Fish Games is dedicated to providing immersive aquatic gaming experiences that challenge
-            your strategic thinking and create unforgettable underwater adventures. We believe in
-            the power of games to educate, entertain, and inspire players of all ages.
+            Fishing Games is dedicated to providing immersive aquatic gaming experiences that
+            challenge your strategic thinking and create unforgettable underwater adventures. We
+            believe in the power of games to educate, entertain, and inspire players of all ages.
           </p>
         </section>
 
@@ -56,7 +56,7 @@
         <section class="legal-section">
           <h2>Platform Features</h2>
           <p>
-            Fish Games offers a comprehensive gaming platform with advanced features designed to
+            Fishing Games offers a comprehensive gaming platform with advanced features designed to
             enhance your gaming experience. Our platform supports various game formats and provides
             seamless gameplay across different devices.
           </p>
@@ -74,8 +74,8 @@
         <section class="legal-section">
           <h2>Contact Us</h2>
           <p>
-            Have questions, suggestions, or want to learn more about Fish Games? We'd love to hear
-            from you:
+            Have questions, suggestions, or want to learn more about Fishing Games? We'd love to
+            hear from you:
             <a href="mailto:kadiyamobi89@gmail.com" class="contact-link">kadiyamobi89@gmail.com</a>
           </p>
         </section>
@@ -93,31 +93,31 @@ import FooterComponent from '@/components/FooterComponent.vue'
 
 // 设置SEO数据
 useHead({
-  title: 'About Us - Fish Games',
+  title: 'About Us - Fishing Games',
   meta: [
     {
       name: 'description',
       content:
-        'Learn about Fish Games - our mission, values, and commitment to creating immersive aquatic gaming experiences.',
+        'Learn about Fishing Games - our mission, values, and commitment to creating immersive aquatic gaming experiences.',
     },
     {
       name: 'keywords',
       content:
-        'about fish games, aquatic games, ocean conservation, marine education, game development',
+        'about Fishing Games, aquatic games, ocean conservation, marine education, game development',
     },
-    { property: 'og:title', content: 'About Us - Fish Games' },
+    { property: 'og:title', content: 'About Us - Fishing Games' },
     {
       property: 'og:description',
       content:
-        'Learn about Fish Games - our mission, values, and commitment to creating immersive aquatic gaming experiences.',
+        'Learn about Fishing Games - our mission, values, and commitment to creating immersive aquatic gaming experiences.',
     },
     { property: 'og:type', content: 'website' },
     { name: 'twitter:card', content: 'summary' },
-    { name: 'twitter:title', content: 'About Us - Fish Games' },
+    { name: 'twitter:title', content: 'About Us - Fishing Games' },
     {
       name: 'twitter:description',
       content:
-        'Learn about Fish Games - our mission, values, and commitment to creating immersive aquatic gaming experiences.',
+        'Learn about Fishing Games - our mission, values, and commitment to creating immersive aquatic gaming experiences.',
     },
   ],
 })

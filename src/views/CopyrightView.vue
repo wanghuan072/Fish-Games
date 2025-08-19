@@ -12,25 +12,25 @@
         <section class="legal-section">
           <h2>1. Copyright Notice</h2>
           <p>
-            All content included on Fish Games website, such as text, graphics, logos, images, audio
-            clips, digital downloads, data compilations, and software, is the property of Fish Games
-            or its content suppliers and protected by international copyright laws.
+            All content included on fishinggames.co website, such as text, graphics, logos, images,
+            audio clips, digital downloads, data compilations, and software, is the property of
+            fishinggames.co or its content suppliers and protected by international copyright laws.
           </p>
         </section>
 
         <section class="legal-section">
           <h2>2. Trademark Information</h2>
           <p>
-            Fish Games and the Fish Games logo are trademarks of Fish Games. All other trademarks,
-            service marks, and trade names used in this site are the property of their respective
-            owners.
+            fishinggames.co and the fishinggames.co logo are trademarks of fishinggames.co. All
+            other trademarks, service marks, and trade names used in this site are the property of
+            their respective owners.
           </p>
         </section>
 
         <section class="legal-section">
           <h2>3. Game Content</h2>
           <p>
-            All games featured on Fish Games are either original creations or used with proper
+            All games featured on fishinggames.co are either original creations or used with proper
             licensing agreements. Game developers and publishers retain their respective copyrights
             and intellectual property rights to their games.
           </p>
@@ -39,19 +39,19 @@
         <section class="legal-section">
           <h2>4. User-Generated Content</h2>
           <p>
-            Any content you submit to Fish Games, including but not limited to reviews, comments,
-            suggestions, and feedback, becomes the property of Fish Games and may be used, copied,
-            sublicensed, adapted, transmitted, distributed, publicly performed, published, displayed
-            or deleted as we see fit.
+            Any content you submit to fishinggames.co, including but not limited to reviews,
+            comments, suggestions, and feedback, becomes the property of fishinggames.co and may be
+            used, copied, sublicensed, adapted, transmitted, distributed, publicly performed,
+            published, displayed or deleted as we see fit.
           </p>
         </section>
 
         <section class="legal-section">
           <h2>5. Copyright Infringement Claims</h2>
           <p>
-            Fish Games respects the intellectual property rights of others. If you believe that your
-            copyrighted work has been copied in a way that constitutes copyright infringement and is
-            accessible on this site, please notify us immediately.
+            fishinggames.co respects the intellectual property rights of others. If you believe that
+            your copyrighted work has been copied in a way that constitutes copyright infringement
+            and is accessible on this site, please notify us immediately.
           </p>
           <p>
             To file a copyright infringement notification, please provide the following information:
@@ -78,7 +78,7 @@
         <section class="legal-section">
           <h2>7. Third-Party Content</h2>
           <p>
-            Some content on Fish Games may be provided by third parties. We do not control
+            Some content on fishinggames.co may be provided by third parties. We do not control
             third-party content and are not responsible for any copyright infringement by such third
             parties. Users should respect all applicable copyright laws.
           </p>
@@ -87,8 +87,9 @@
         <section class="legal-section">
           <h2>8. License to Use</h2>
           <p>
-            Subject to these terms, Fish Games grants you a limited, non-exclusive, non-transferable
-            license to access and use the website for personal, non-commercial purposes only.
+            Subject to these terms, fishinggames.co grants you a limited, non-exclusive,
+            non-transferable license to access and use the website for personal, non-commercial
+            purposes only.
           </p>
         </section>
 
@@ -114,30 +115,30 @@ import FooterComponent from '@/components/FooterComponent.vue'
 
 // 设置SEO数据
 useHead({
-  title: 'Copyright Information - Fish Games',
+  title: 'Copyright Information - fishinggames.co',
   meta: [
     {
       name: 'description',
       content:
-        'Copyright information for Fish Games. Learn about intellectual property rights and usage guidelines.',
+        'Copyright information for fishinggames.co. Learn about intellectual property rights and usage guidelines.',
     },
     {
       name: 'keywords',
-      content: 'copyright, intellectual property, fish games, trademark, fair use',
+      content: 'copyright, intellectual property, fishinggames.co, trademark, fair use',
     },
-    { property: 'og:title', content: 'Copyright Information - Fish Games' },
+    { property: 'og:title', content: 'Copyright Information - fishinggames.co' },
     {
       property: 'og:description',
       content:
-        'Copyright information for Fish Games. Learn about intellectual property rights and usage guidelines.',
+        'Copyright information for fishinggames.co. Learn about intellectual property rights and usage guidelines.',
     },
     { property: 'og:type', content: 'website' },
     { name: 'twitter:card', content: 'summary' },
-    { name: 'twitter:title', content: 'Copyright Information - Fish Games' },
+    { name: 'twitter:title', content: 'Copyright Information - fishinggames.co' },
     {
       name: 'twitter:description',
       content:
-        'Copyright information for Fish Games. Learn about intellectual property rights and usage guidelines.',
+        'Copyright information for fishinggames.co. Learn about intellectual property rights and usage guidelines.',
     },
   ],
 })

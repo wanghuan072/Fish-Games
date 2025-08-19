@@ -49,6 +49,9 @@
         <ul class="footer-links">
           <li><router-link to="/" class="footer-link">Home</router-link></li>
           <li><router-link to="/games" class="footer-link">Games</router-link></li>
+          <li><router-link to="/hot-games" class="footer-link">Hot Games</router-link></li>
+          <li><router-link to="/new-games" class="footer-link">New Games</router-link></li>
+          <li><router-link to="/updated-games" class="footer-link">Updated Games</router-link></li>
           <li><router-link to="/blog" class="footer-link">Blog</router-link></li>
         </ul>
       </div>
@@ -97,7 +100,7 @@
 
     <!-- 底部版权 -->
     <div class="footer-bottom">
-      <p>&copy; 2025 Fish Games. All rights reserved.</p>
+      <p>&copy; 2025 fishinggames.co. All rights reserved.</p>
     </div>
   </footer>
 </template>

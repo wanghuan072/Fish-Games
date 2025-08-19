@@ -22,9 +22,9 @@
       <nav class="main-nav desktop-nav">
         <router-link to="/" class="nav-link">Home</router-link>
         <router-link to="/games" class="nav-link">Games</router-link>
-        <router-link to="/hot" class="nav-link">Hot Games</router-link>
-        <router-link to="/new" class="nav-link">New Games</router-link>
-        <router-link to="/updated" class="nav-link">Updated Games</router-link>
+        <router-link to="/hot-games" class="nav-link">Hot Games</router-link>
+        <router-link to="/new-games" class="nav-link">New Games</router-link>
+        <router-link to="/updated-games" class="nav-link">Updated Games</router-link>
         <router-link to="/blog" class="nav-link">Blog</router-link>
       </nav>
     </div>

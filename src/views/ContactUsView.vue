@@ -12,8 +12,8 @@
         <section class="legal-section">
           <h2>General Information</h2>
           <p>
-            Have questions about Fish Games? Need technical support? Want to suggest new features or
-            report a bug? We're here to help! Feel free to reach out to us using the contact
+            Have questions about Fishing Games? Need technical support? Want to suggest new features
+            or report a bug? We're here to help! Feel free to reach out to us using the contact
             information below.
           </p>
         </section>
@@ -102,30 +102,30 @@ import FooterComponent from '@/components/FooterComponent.vue'
 
 // 设置SEO数据
 useHead({
-  title: 'Contact Us - Fish Games',
+  title: 'Contact Us - Fishing Games',
   meta: [
     {
       name: 'description',
       content:
-        "Contact Fish Games for support, questions, or feedback. We're here to help with all your aquatic gaming needs.",
+        "Contact Fishing Games for support, questions, or feedback. We're here to help with all your aquatic gaming needs.",
     },
     {
       name: 'keywords',
-      content: 'contact fish games, customer support, help, feedback, questions',
+      content: 'contact Fishing Games, customer support, help, feedback, questions',
     },
-    { property: 'og:title', content: 'Contact Us - Fish Games' },
+    { property: 'og:title', content: 'Contact Us - Fishing Games' },
     {
       property: 'og:description',
       content:
-        "Contact Fish Games for support, questions, or feedback. We're here to help with all your aquatic gaming needs.",
+        "Contact Fishing Games for support, questions, or feedback. We're here to help with all your aquatic gaming needs.",
     },
     { property: 'og:type', content: 'website' },
     { name: 'twitter:card', content: 'summary' },
-    { name: 'twitter:title', content: 'Contact Us - Fish Games' },
+    { name: 'twitter:title', content: 'Contact Us - Fishing Games' },
     {
       name: 'twitter:description',
       content:
-        "Contact Fish Games for support, questions, or feedback. We're here to help with all your aquatic gaming needs.",
+        "Contact Fishing Games for support, questions, or feedback. We're here to help with all your aquatic gaming needs.",
     },
   ],
 })
