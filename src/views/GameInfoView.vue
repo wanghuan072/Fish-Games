@@ -27,7 +27,7 @@
           <span class="current">{{ game.title }}</span>
         </nav>
 
-        <h1 class="page-title">{{ game.title }}</h1>
+        <h1 class="page-title title-h1">{{ game.title }}</h1>
 
         <div class="game-info-layout">
           <div class="game-media">
@@ -95,7 +95,7 @@
 
         <!-- 详情内容 -->
         <div class="details-section">
-          <h2 class="details-title">About This Game</h2>
+          <h2 class="details-title title-h2">About This Game</h2>
           <div v-html="game.detailsHtml" class="details-html"></div>
         </div>
       </div>
@@ -179,8 +179,8 @@ onMounted(() => {
 }
 
 .breadcrumb {
-  margin-bottom: 1.5rem;
-  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
   color: #e5e5e5;
 }
 .breadcrumb a {
@@ -199,8 +199,7 @@ onMounted(() => {
 }
 
 .page-title {
-  font-size: 2.4rem;
-  margin: 0.5rem 0 1.5rem;
+  text-align: left;
   background: linear-gradient(45deg, #ffd700, #ffb347);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -323,8 +322,6 @@ onMounted(() => {
 }
 .details-title {
   color: #00d4ff;
-  font-size: 1.6rem;
-  margin-bottom: 1.2rem;
   text-align: center;
 }
 .details-html {
@@ -386,12 +383,6 @@ onMounted(() => {
   background: linear-gradient(135deg, rgba(34, 197, 94, 0.75), rgba(16, 185, 129, 0.75));
 }
 
-@media (max-width: 1024px) {
-  .meta-sections {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* 星级样式 */
 .rating {
   margin-bottom: 1rem;
@@ -420,9 +411,25 @@ onMounted(() => {
   font-size: 0.9rem;
   color: #cbd5e1;
 }
+
 @media (max-width: 1024px) {
   .game-info-layout {
-    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .meta-card {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .game-info-layout {
+    grid-template-columns: 1fr 2fr;
+  }
+  .play-button {
+    padding: 0.8rem 1.5rem;
+  }
+  .details-section {
+    padding: 1rem;
   }
 }
 </style>

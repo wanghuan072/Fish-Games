@@ -4,7 +4,7 @@
 
     <main class="main-content">
       <div class="blog-header">
-        <h1>Fish Games Blog</h1>
+        <h1 class="title-h1">Fish Games Blog</h1>
         <p>Discover expert tips, guides, and insights about aquatic life and fishkeeping</p>
       </div>
 
@@ -81,23 +81,22 @@ const navigateToBlog = (blog) => {
 
 /* 博客头部 */
 .blog-header {
-  text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 .blog-header h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
   background: linear-gradient(45deg, #ffd700, #ffb347);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  margin-bottom: 0;
 }
 
 .blog-header p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #e5e5e5;
   opacity: 0.8;
+  text-align: center;
 }
 
 /* 博客网格 */
@@ -185,19 +184,6 @@ const navigateToBlog = (blog) => {
     padding: 1.5rem;
   }
 
-  .blog-header {
-    margin-bottom: 3rem;
-  }
-
-  .blog-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.8rem;
-  }
-
-  .blog-header p {
-    font-size: 1.1rem;
-  }
-
   .blog-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.8rem;
@@ -224,16 +210,11 @@ const navigateToBlog = (blog) => {
   }
 
   .blog-header {
-    margin-bottom: 2.5rem;
-  }
-
-  .blog-header h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
 
   .blog-header p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .blog-grid {

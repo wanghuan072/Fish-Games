@@ -5,7 +5,7 @@
     <main class="container">
       <!-- 动态渲染所有分类 -->
       <section class="categories-section">
-        <h1>Featured Fish Games</h1>
+        <h1 class="title-h1">Featured Fish Games</h1>
 
         <template v-for="category in displayCategories" :key="category.id">
           <GameGrid
@@ -20,7 +20,7 @@
       </section>
 
       <section class="about-section">
-        <h2>About Fish Games</h2>
+        <h2 class="title-h2">About Fish Games</h2>
         <div class="about-content">
           <p>
             Welcome to Fish Games, your ultimate destination for aquatic gaming adventures! Dive
@@ -41,7 +41,7 @@
       </section>
 
       <section class="faq-section">
-        <h2>Frequently Asked Questions</h2>
+        <h2 class="title-h2">Frequently Asked Questions</h2>
         <div class="faq-content">
           <div class="faq-item">
             <h3>What types of fish games do you offer?</h3>
@@ -119,9 +119,6 @@ const displayCategories = computed(() => {
 }
 
 .categories-section h1 {
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 1rem;
   background: linear-gradient(45deg, #ffd700, #ffb347);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -168,8 +165,6 @@ const displayCategories = computed(() => {
 }
 
 .about-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
   text-align: center;
   color: #00d4ff;
 }
@@ -190,8 +185,6 @@ const displayCategories = computed(() => {
 }
 
 .faq-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
   text-align: center;
   color: #ffd700;
 }
@@ -221,11 +214,6 @@ const displayCategories = computed(() => {
     padding: 1.5rem;
   }
 
-  .categories-section h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.8rem;
-  }
-
   .section-description {
     font-size: 1.1rem;
     margin-bottom: 2.5rem;
@@ -235,12 +223,6 @@ const displayCategories = computed(() => {
   .faq-section {
     padding: 2.5rem;
     margin-bottom: 3rem;
-  }
-
-  .about-section h2,
-  .faq-section h2 {
-    font-size: 2.2rem;
-    margin-bottom: 1.8rem;
   }
 
   .about-content p {
@@ -263,12 +245,7 @@ const displayCategories = computed(() => {
   }
 
   .categories-section {
-    margin-bottom: 3rem;
-  }
-
-  .categories-section h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
 
   .section-description {
@@ -278,36 +255,30 @@ const displayCategories = computed(() => {
 
   .about-section,
   .faq-section {
-    padding: 2rem;
-    margin-bottom: 2.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
     border-radius: 12px;
   }
 
-  .about-section h2,
-  .faq-section h2 {
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-  }
-
   .about-content p {
-    font-size: 1rem;
-    line-height: 1.7;
-    margin-bottom: 1.2rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
   }
 
   .faq-item {
-    padding: 1.2rem;
-    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
     border-radius: 6px;
   }
 
   .faq-item h3 {
-    font-size: 1.1rem;
-    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   .faq-item p {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     line-height: 1.5;
   }
 }

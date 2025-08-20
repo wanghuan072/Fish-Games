@@ -276,8 +276,8 @@
 @media (max-width: 768px) {
   .footer-content {
     grid-template-columns: 1fr;
-    gap: 2rem;
-    padding: 2rem 1rem 1rem;
+    gap: 1rem;
+    padding: 1rem;
     text-align: center;
   }
 
@@ -295,7 +295,7 @@
   }
 
   .footer-section {
-    text-align: center;
+    display: none;
   }
 
   .section-title {

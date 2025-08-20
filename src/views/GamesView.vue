@@ -4,7 +4,7 @@
 
     <main class="container">
       <section class="all-games-section">
-        <h1 class="page-title">{{ pageTitle }}</h1>
+        <h1 class="page-title title-h1">{{ pageTitle }}</h1>
         <p class="page-description">
           {{ pageDescription }}
         </p>
@@ -104,21 +104,19 @@ const pageDescription = computed(() => {
 }
 
 .page-title {
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 0.75rem;
   background: linear-gradient(45deg, #00d4ff, #8b5cf6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  margin-bottom: 0;
 }
 
 .page-description {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #e5e5e5;
   opacity: 0.85;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -129,11 +127,8 @@ const pageDescription = computed(() => {
     padding: 0.45rem 0.9rem;
     font-size: 0.9rem;
   }
-  .page-title {
-    font-size: 2.2rem;
-  }
   .page-description {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 </style>

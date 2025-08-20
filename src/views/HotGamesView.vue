@@ -4,7 +4,7 @@
 
     <main class="container">
       <section class="all-games-section">
-        <h1 class="page-title">Hot Games</h1>
+        <h1 class="page-title title-h1">Hot Games</h1>
         <p class="page-description">
           Check out the most popular fish games right now. Click any card to view details and start
           playing.
@@ -35,29 +35,24 @@ import FooterComponent from '@/components/FooterComponent.vue'
 }
 
 .page-title {
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 0.75rem;
   background: linear-gradient(45deg, #ff6b9d, #ff8fab);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  margin-bottom: 0;
 }
 
 .page-description {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #e5e5e5;
   opacity: 0.85;
   margin-bottom: 2rem;
 }
 
 @media (max-width: 768px) {
-  .page-title {
-    font-size: 2.2rem;
-  }
   .page-description {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 </style>

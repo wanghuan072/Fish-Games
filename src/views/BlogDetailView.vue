@@ -2,7 +2,7 @@
   <div class="app-container">
     <HeaderComponent />
 
-    <main class="main-content">
+    <main class="container">
       <!-- 加载状态 -->
       <div v-if="loading" class="loading-container">
         <div class="loading-spinner"></div>
@@ -45,7 +45,7 @@
         <!-- 文章内容 -->
         <div class="article-content">
           <div class="content-main">
-            <div v-html="blog.detailsHtml" class="article-body"></div>
+            <div v-html="blog.detailsHtml" class="details-html"></div>
           </div>
         </div>
 
@@ -100,13 +100,6 @@ onMounted(() => {
   color: #ffffff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   position: relative;
-}
-
-/* 主要内容样式 */
-.main-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
 }
 
 /* 加载和错误状态 */
@@ -304,10 +297,6 @@ onMounted(() => {
 
 /* 响应式设计 */
 @media (max-width: 1024px) {
-  .main-content {
-    padding: 1.5rem;
-  }
-
   .hero-section {
     height: 450px;
   }
@@ -354,10 +343,6 @@ onMounted(() => {
 }
 
 @media (max-width: 768px) {
-  .main-content {
-    padding: 1rem;
-  }
-
   .hero-section {
     height: 350px;
   }

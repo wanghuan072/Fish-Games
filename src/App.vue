@@ -38,89 +38,85 @@ body {
 /* 通用容器样式 */
 .container {
   max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 2rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 
 @media (max-width: 1024px) {
-  .container {
-    padding: 0 1.5rem;
-  }
-}
-
-@media (max-width: 768px) {
   .container {
     padding: 0 1rem;
   }
 }
 
-/* 响应式显示/隐藏工具类 */
-@media (max-width: 1024px) {
-  .hide-tablet {
-    display: none !important;
-  }
-}
-
 @media (max-width: 768px) {
-  .hide-mobile {
-    display: none !important;
+  .container {
+    padding: 0 0.5rem;
+    margin: 1rem auto;
   }
 }
 
-@media (min-width: 769px) {
-  .show-mobile-only {
-    display: none !important;
-  }
-}
-
-@media (min-width: 1025px) {
-  .show-tablet-only {
-    display: none !important;
-  }
-}
-
-/* 文本对齐工具类 */
-.text-center {
+.title-h1 {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
-.text-left {
-  text-align: left;
+
+.title-h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
 }
-.text-right {
-  text-align: right;
+
+@media (max-width: 1024px) {
+  .title-h1 {
+    font-size: 2rem;
+  }
+  .title-h2 {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 768px) {
-  .text-center-mobile {
-    text-align: center;
+  .title-h1 {
+    font-size: 1.6rem;
+    line-height: 1;
   }
-  .text-left-mobile {
-    text-align: left;
+  .title-h2 {
+    font-size: 1.4rem;
+    line-height: 1;
   }
 }
 
-/* 滚动条美化 */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+/*  */
+.details-html h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
-::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.1);
+.details-html p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-::-webkit-scrollbar-thumb {
-  background: rgba(139, 92, 246, 0.6);
-  border-radius: 4px;
+.details-html ul {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+.details-html img {
+  max-width: 100%;
+  height: auto;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(139, 92, 246, 0.8);
-}
-
-/* 选择文本样式 */
-::selection {
-  background: rgba(0, 212, 255, 0.3);
-  color: #ffffff;
+@media (max-width: 768px) {
+  .details-html h3 {
+    font-size: 1rem;
+  }
+  .details-html p {
+    font-size: 0.8rem;
+  }
+  .details-html ul {
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+  }
 }
 </style>

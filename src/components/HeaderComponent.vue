@@ -33,9 +33,13 @@
     <nav class="mobile-nav" :class="{ open: isMenuOpen }">
       <router-link to="/" class="mobile-nav-link" @click="closeMenu">Home</router-link>
       <router-link to="/games" class="mobile-nav-link" @click="closeMenu">Games</router-link>
-      <router-link to="/hot" class="mobile-nav-link" @click="closeMenu">Hot Games</router-link>
-      <router-link to="/new" class="mobile-nav-link" @click="closeMenu">New Games</router-link>
-      <router-link to="/updated" class="mobile-nav-link" @click="closeMenu"
+      <router-link to="/hot-games" class="mobile-nav-link" @click="closeMenu"
+        >Hot Games</router-link
+      >
+      <router-link to="/new-games" class="mobile-nav-link" @click="closeMenu"
+        >New Games</router-link
+      >
+      <router-link to="/updated-games" class="mobile-nav-link" @click="closeMenu"
         >Updated Games</router-link
       >
       <router-link to="/blog" class="mobile-nav-link" @click="closeMenu">Blog</router-link>

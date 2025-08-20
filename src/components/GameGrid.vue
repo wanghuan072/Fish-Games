@@ -2,7 +2,7 @@
   <div class="game-grid-container">
     <div v-if="showTitle" class="category-header">
       <div class="category-header-left">
-        <h2 class="category-title">{{ title }}</h2>
+        <h2 class="category-title title-h2">{{ title }}</h2>
         <p v-if="description" class="category-description">{{ description }}</p>
       </div>
       <router-link v-if="moreTo" :to="moreTo" class="more-link">More →</router-link>
@@ -134,7 +134,7 @@ const navigateToGame = (game) => {
 }
 
 .category-header {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -144,18 +144,15 @@ const navigateToGame = (game) => {
 .category-header-left {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
 }
 
 .category-title {
-  font-size: 2.2rem;
-  font-weight: bold;
   color: #00d4ff;
-  margin-bottom: 0.5rem;
   background: linear-gradient(45deg, #00d4ff, #8b5cf6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  margin-bottom: 0;
 }
 
 .category-description {
@@ -318,10 +315,6 @@ const navigateToGame = (game) => {
     gap: 0.9rem;
   }
 
-  .category-title {
-    font-size: 2rem;
-  }
-
   .category-description {
     font-size: 1rem;
   }
@@ -335,6 +328,9 @@ const navigateToGame = (game) => {
     font-size: 1rem;
     padding: 1rem;
   }
+  .game-grid-container {
+    margin-bottom: 3rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -343,12 +339,12 @@ const navigateToGame = (game) => {
     gap: 0.8rem;
   }
 
-  .category-title {
-    font-size: 1.8rem;
+  .category-description {
+    display: none;
   }
 
-  .category-description {
-    font-size: 0.95rem;
+  .game-grid-container {
+    margin-bottom: 1rem;
   }
 
   .game-card-large {

@@ -727,10 +727,6 @@ onUnmounted(() => {
     grid-template-columns: repeat(6, 1fr);
   }
 
-  .game-preview-bg {
-    height: 450px;
-  }
-
   .game-icon {
     width: 80px;
     height: 80px;
@@ -739,10 +735,6 @@ onUnmounted(() => {
   .play-button {
     padding: 1.1rem 2.5rem;
     font-size: 1.1rem;
-  }
-
-  .game-iframe {
-    height: 450px;
   }
 
   .game-about-section {
@@ -758,6 +750,10 @@ onUnmounted(() => {
   .control-button {
     width: 38px;
     height: 38px;
+  }
+
+  .game-detail-layout {
+    width: 100%;
   }
 }
 
@@ -777,7 +773,7 @@ onUnmounted(() => {
   }
 
   .game-player-section {
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 12px;
   }
 
@@ -798,11 +794,8 @@ onUnmounted(() => {
   }
 
   .game-main-container {
+    aspect-ratio: 2/3;
     margin-bottom: 1rem;
-  }
-
-  .game-preview-bg {
-    height: 300px;
   }
 
   .game-overlay {
@@ -818,10 +811,6 @@ onUnmounted(() => {
     padding: 0.9rem 2rem;
     font-size: 1rem;
     gap: 0.6rem;
-  }
-
-  .game-iframe {
-    height: 300px;
   }
 
   .game-controls {
