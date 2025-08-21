@@ -118,5 +118,8 @@ body {
     font-size: 0.8rem;
     padding-left: 0.5rem;
   }
+  .hidden-xs {
+    display: none !important;
+  }
 }
 </style>

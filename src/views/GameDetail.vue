@@ -99,7 +99,7 @@
                   <button
                     @click="toggleFullscreen"
                     :disabled="!showGameplay"
-                    class="control-button"
+                    class="control-button hidden-xs"
                     :class="{ disabled: !showGameplay }"
                     title="Full screen"
                   >
