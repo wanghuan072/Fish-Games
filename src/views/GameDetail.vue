@@ -253,6 +253,11 @@ const enterPageFullscreen = async () => {
       const currentSrc = gameIframe.value.src
       gameIframe.value.src = ''
       gameIframe.value.src = currentSrc
+
+      // 确保iframe在全屏模式下正确显示
+      gameIframe.value.style.width = '100%'
+      gameIframe.value.style.height = '100%'
+      gameIframe.value.style.objectFit = 'contain'
     }
   }, 150)
 }
@@ -268,6 +273,11 @@ const exitPageFullscreen = async () => {
       const currentSrc = gameIframe.value.src
       gameIframe.value.src = ''
       gameIframe.value.src = currentSrc
+
+      // 恢复iframe的正常样式
+      gameIframe.value.style.width = '100%'
+      gameIframe.value.style.height = '100%'
+      gameIframe.value.style.objectFit = 'cover'
     }
   }, 150)
 }
@@ -511,6 +521,9 @@ onUnmounted(() => {
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .game-iframe {
@@ -519,6 +532,7 @@ onUnmounted(() => {
   border: none;
   display: block;
   transition: all 0.3s ease;
+  object-fit: contain;
 }
 
 /* 游戏操作栏 */
@@ -591,15 +605,23 @@ onUnmounted(() => {
 .game-player-section.page-fullscreen .game-main-container {
   flex-grow: 1;
   margin-bottom: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .game-player-section.page-fullscreen .game-iframe-container {
   height: 100%;
+  width: 100%;
+  position: relative;
 }
 
 .game-player-section.page-fullscreen .game-iframe {
+  width: 100%;
   height: 100%;
   border-radius: 0;
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .game-player-section.page-fullscreen .game-controls {
@@ -873,6 +895,30 @@ onUnmounted(() => {
 
   .game-player-section.page-fullscreen .game-controls {
     padding: 0.3rem;
+  }
+
+  .game-player-section.page-fullscreen .game-main-container {
+    aspect-ratio: auto;
+    height: calc(100vh - 80px);
+    margin: 0;
+    padding: 0;
+  }
+
+  .game-player-section.page-fullscreen .game-iframe-container {
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .game-player-section.page-fullscreen .game-iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
   }
 }
 </style>
