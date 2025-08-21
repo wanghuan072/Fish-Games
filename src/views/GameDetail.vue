@@ -766,6 +766,7 @@ onUnmounted(() => {
   .breadcrumb {
     margin-bottom: 1rem;
     font-size: 0.8rem;
+    display: none;
   }
 
   .separator {
@@ -794,7 +795,7 @@ onUnmounted(() => {
   }
 
   .game-main-container {
-    aspect-ratio: 2/3;
+    aspect-ratio: 3/4;
     margin-bottom: 1rem;
   }
 
