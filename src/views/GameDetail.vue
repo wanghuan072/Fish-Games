@@ -746,10 +746,10 @@ onUnmounted(() => {
     grid-template-columns: repeat(6, 1fr);
   }
 
-  .game-icon {
+  /* .game-icon {
     width: 80px;
     height: 80px;
-  }
+  } */
 
   .play-button {
     padding: 1.1rem 2.5rem;
@@ -822,10 +822,10 @@ onUnmounted(() => {
     gap: 1.5rem;
   }
 
-  .game-icon {
+  /* .game-icon {
     width: 60px;
     height: 60px;
-  }
+  } */
 
   .play-button {
     padding: 0.9rem 2rem;
