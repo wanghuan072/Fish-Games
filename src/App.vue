@@ -81,7 +81,7 @@ body {
     line-height: 1;
   }
   .title-h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1;
   }
 }

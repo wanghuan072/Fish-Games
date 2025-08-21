@@ -246,40 +246,32 @@ const enterPageFullscreen = async () => {
   isPageFullscreen.value = true
   document.body.style.overflow = 'hidden'
 
-  // 等待DOM更新完成后刷新iframe
+  // 等待DOM更新完成后设置iframe样式
   await nextTick()
   setTimeout(() => {
     if (gameIframe.value) {
-      const currentSrc = gameIframe.value.src
-      gameIframe.value.src = ''
-      gameIframe.value.src = currentSrc
-
-      // 确保iframe在全屏模式下正确显示
+      // 确保iframe在全屏模式下正确显示，不刷新src避免重新加载
       gameIframe.value.style.width = '100%'
       gameIframe.value.style.height = '100%'
       gameIframe.value.style.objectFit = 'contain'
     }
-  }, 150)
+  }, 100)
 }
 
 const exitPageFullscreen = async () => {
   isPageFullscreen.value = false
   document.body.style.overflow = 'auto'
 
-  // 等待DOM更新完成后刷新iframe
+  // 等待DOM更新完成后恢复iframe样式
   await nextTick()
   setTimeout(() => {
     if (gameIframe.value) {
-      const currentSrc = gameIframe.value.src
-      gameIframe.value.src = ''
-      gameIframe.value.src = currentSrc
-
-      // 恢复iframe的正常样式
+      // 恢复iframe的正常样式，不刷新src避免重新加载
       gameIframe.value.style.width = '100%'
       gameIframe.value.style.height = '100%'
       gameIframe.value.style.objectFit = 'cover'
     }
-  }, 150)
+  }, 100)
 }
 
 // 模拟加载
@@ -628,6 +620,10 @@ onUnmounted(() => {
   flex-shrink: 0;
   background: rgba(0, 0, 0, 0.8);
   border-top: 1px solid rgba(139, 92, 246, 0.4);
+  padding: 1rem;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
 }
 
 /* 游戏元数据 */
@@ -894,12 +890,15 @@ onUnmounted(() => {
   }
 
   .game-player-section.page-fullscreen .game-controls {
-    padding: 0.3rem;
+    padding: 0.8rem 0.5rem;
+    min-height: 80px;
+    display: flex;
+    align-items: flex-start;
   }
 
   .game-player-section.page-fullscreen .game-main-container {
     aspect-ratio: auto;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 120px);
     margin: 0;
     padding: 0;
   }
