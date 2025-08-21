@@ -624,6 +624,7 @@ onUnmounted(() => {
   min-height: 70px;
   display: flex;
   align-items: center;
+  order: 3;
 }
 
 /* 游戏元数据 */
@@ -891,9 +892,13 @@ onUnmounted(() => {
 
   .game-player-section.page-fullscreen .game-controls {
     padding: 0.8rem 0.5rem;
-    min-height: 80px;
+    min-height: 60px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    order: 1;
+    border-top: none;
+    border-bottom: 1px solid rgba(139, 92, 246, 0.4);
+    background: rgba(0, 0, 0, 0.9);
   }
 
   .game-player-section.page-fullscreen .game-main-container {
@@ -901,6 +906,8 @@ onUnmounted(() => {
     height: calc(100vh - 120px);
     margin: 0;
     padding: 0;
+    order: 2;
+    flex: 1;
   }
 
   .game-player-section.page-fullscreen .game-iframe-container {
