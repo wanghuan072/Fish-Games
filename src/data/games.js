@@ -2409,7 +2409,81 @@ export const games = [
             <h3>Are You Ready to Put Your Brain to the Test?</h3>
             <p>This is a game of pure logic and creative problem-solving. Do you have the wits to solve every puzzle and get the fish out? It's time to find out!</p>
         `
+    },
+
+    {
+        "id": 68,
+        "title": "Mermaid Jigsaw",
+        "addressBar": "mermaid-jigsaw",
+        "publishDate": "2025-08-26",
+        "imageUrl": "/images/games/fish-68.webp",
+        "imageAlt": "A colorful jigsaw puzzle screen showing a mermaid illustration being assembled piece by piece under the sea.",
+        "iframeUrl": "https://html5.gamemonetize.co/zg075uptezyu1h7fntj3l0694ofpnjvm/",
+        "isDetail": true,
+        "stars": 5,
+        "tags": ["puzzle", "jigsaw", "mermaid", "casual"],
+        "badges": [],
+        "seo": {
+            "title": "Mermaid Jigsaw - Relaxing Underwater Puzzle Game",
+            "description": "Piece together enchanting underwater scenes in Mermaid Jigsaw! A fun and relaxing puzzle game featuring beautiful mermaids, ocean life, and magical seascapes.",
+            "keywords": "mermaid jigsaw, puzzle game, jigsaw puzzle, mermaid game, ocean puzzle, casual game, relaxing puzzle"
+        },
+        "categories": ["puzzle"],
+        "size": "small",
+        "detailsHtml": `
+            <h3>Dive Into the World of Mermaids</h3>
+            <p>Uncover the beauty of the ocean with <b>Mermaid Jigsaw</b>, a relaxing and magical puzzle game. Piece together stunning illustrations of mermaids, shimmering seashells, and enchanting underwater kingdoms. Whether you're a fan of jigsaw puzzles or simply love mermaids, this game brings you the best of both worlds.</p>
+            
+            <h3>Game Features</h3>
+            <ul>
+                <li><b>Beautiful Mermaid Art:</b> Solve puzzles featuring gorgeous mermaid illustrations surrounded by coral reefs and sea creatures.</li>
+                <li><b>Multiple Difficulty Levels:</b> From easy puzzles with fewer pieces to challenging ones for puzzle masters, there’s something for everyone.</li>
+                <li><b>Relaxing Gameplay:</b> No timers, no pressure—just pure puzzle-solving fun at your own pace.</li>
+                <li><b>Colorful Graphics:</b> Enjoy vibrant and detailed artwork that makes each puzzle piece feel rewarding to place.</li>
+            </ul>
+            
+            <h3>A Relaxing Ocean Adventure Awaits</h3>
+            <p><b>Mermaid Jigsaw</b> is perfect for players looking to relax and unwind while enjoying the magic of the sea. Can you complete all the puzzles and reveal every enchanting mermaid scene? Dive in and start your underwater journey today!</p>
+        `
+    },
+
+    {
+        "id": 69,
+        "title": "Let's Go Fishing",
+        "addressBar": "lets-go-fishing",
+        "publishDate": "2025-08-22",
+        "imageUrl": "/images/games/fish-69.webp",
+        "imageAlt": "A fun fishing game screen showing a fisherman casting a line into a lake full of colorful fish.",
+        "iframeUrl": "https://play.gamepix.com/lets-go-fishing/embed?sid=F95OM",
+        "isDetail": false,
+        "stars": 5,
+        "tags": ["fishing", "casual", "arcade", "adventure"],
+        "badges": [],
+        "seo": {
+            "title": "Let's Go Fishing - Fun Arcade Fishing Game",
+            "description": "Cast your line and reel in the catch of the day in Let's Go Fishing! A simple yet addictive fishing game for players of all ages.",
+            "keywords": "let's go fishing, fishing game, arcade fishing, casual fishing, fun fishing game, fish catching game"
+        },
+        "categories": ["arcade", "casual"],
+        "size": "small",
+        "detailsHtml": `
+            <h3>Ready to Catch Some Fish?</h3>
+            <p><b>Let's Go Fishing</b> is a simple yet highly addictive fishing game that will test your timing and reflexes. Cast your line, aim carefully, and try to catch as many fish as possible before time runs out. Each catch brings you closer to becoming the ultimate fisherman!</p>
+            
+            <h3>Game Features</h3>
+            <ul>
+                <li><b>Easy to Play:</b> Just tap to cast your line and reel in fish with intuitive controls that anyone can pick up quickly.</li>
+                <li><b>Colorful Fish Variety:</b> From tiny minnows to big golden catches, discover different kinds of fish swimming in the waters.</li>
+                <li><b>Challenging Levels:</b> Each round brings faster fish and trickier catches, keeping you hooked for hours.</li>
+                <li><b>Fun Arcade Style:</b> Bright graphics and cheerful sound effects make fishing exciting and enjoyable for all ages.</li>
+            </ul>
+            
+            <h3>Hook, Line, and Sinker!</h3>
+            <p>Dive into the fun world of <b>Let's Go Fishing</b> and see how many fish you can catch. It’s the perfect game to relax, challenge your reflexes, and enjoy some lighthearted fishing action. Are you ready to reel in the big one?</p>
+        `
     }
+
+
 
 ]
 
@@ -2425,18 +2499,6 @@ export const gameCategories = [
             keywords: 'fishing games, fishing simulator, realistic fishing, cast and reel, fish collection'
         }
     },
-
-    // {
-    //     id: 'shooter',
-    //     name: 'Fishing Shooter Games', // 捕鱼射击类游戏
-    //     description: 'Shoot fish with cannons, collect coins, and enjoy exciting underwater battles.',
-    //     seo: {
-    //         title: 'Fishing Shooter Games - Arcade Fish Shooting | Fish Games',
-    //         description: 'High‑energy fish shooting arcade games. Use cannons, chain combos, and defeat big bosses to win massive rewards.',
-    //         keywords: 'fishing shooter, fish shooting, arcade fishing, cannon shooter, fish boss'
-    //     }
-    // },
-
     {
         id: 'aquarium',
         name: 'Aquarium & Fish Breeding Games', // 水族养成类游戏
@@ -2447,16 +2509,6 @@ export const gameCategories = [
             keywords: 'aquarium games, fish breeding, fish tank builder, aquarium simulator'
         }
     },
-    // {
-    //     id: 'merge',
-    //     name: 'Fish Merge Games', // 鱼类合成类游戏
-    //     description: 'Merge the same fish to create bigger and cooler ones.',
-    //     seo: {
-    //         title: 'Fish Merge Games - Merge and Evolve Fish | Fish Games',
-    //         description: 'Merge identical fish to unlock stronger and rarer species. Simple, addictive merge gameplay for all ages.',
-    //         keywords: 'fish merge, merge games, evolve fish, idle merge'
-    //     }
-    // },
     {
         id: 'adventure',
         name: 'Fish Action & Adventure Games', // 鱼类动作冒险类游戏
@@ -2477,28 +2529,6 @@ export const gameCategories = [
             keywords: 'fish puzzle, match 3, fish matching, logic puzzles, casual puzzle'
         }
     },
-    // {
-    //     id: 'clicker',
-    //     name: 'Fish Clicker Games', // 鱼类点击类游戏
-    //     description: 'Click on fish to earn points, upgrade your fish, and compete with others.',
-    //     seo: {
-    //         title: 'Fish Clicker Games - Idle Clicker with Fish Upgrades | Fish Games',
-    //         description: 'Idle clicker fun with fish upgrades. Tap to earn, automate income, and build the ultimate fish empire.',
-    //         keywords: 'fish clicker, idle clicker, incremental game, tap games, idle fish'
-    //     }
-    // }
 
 
-
-
-    // {
-    //     id: 'aquarium',
-    //     name: 'aquarium Games',
-    //     description: 'Classic aquarium-themed games featuring underwater adventures and marine life'
-    // },
-    // {
-    //     id: 'clicker',
-    //     name: 'clicker Games',
-    //     description: 'Classic clicker-themed games featuring underwater adventures and marine life'
-    // }
 ]
