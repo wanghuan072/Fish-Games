@@ -2464,7 +2464,7 @@ export const games = [
             "description": "Cast your line and reel in the catch of the day in Let's Go Fishing! A simple yet addictive fishing game for players of all ages.",
             "keywords": "let's go fishing, fishing game, arcade fishing, casual fishing, fun fishing game, fish catching game"
         },
-        "categories": ["arcade", "casual"],
+        "categories": ["fishing"],
         "size": "small",
         "detailsHtml": `
             <h3>Ready to Catch Some Fish?</h3>
@@ -2481,7 +2481,81 @@ export const games = [
             <h3>Hook, Line, and Sinker!</h3>
             <p>Dive into the fun world of <b>Let's Go Fishing</b> and see how many fish you can catch. It’s the perfect game to relax, challenge your reflexes, and enjoy some lighthearted fishing action. Are you ready to reel in the big one?</p>
         `
+    },
+
+    {
+        "id": 70,
+        "title": "Angry Fish",
+        "addressBar": "angry-fish",
+        "publishDate": "2025-09-01",
+        "imageUrl": "/images/games/fish-70.webp",
+        "imageAlt": "Angry Fish game screen showing colorful fish dodging obstacles and enemies in a lively underwater scene.",
+        "iframeUrl": "https://html5.gamedistribution.com/rvvASMiM/69f14bf7094c40b99c034f84e57f9590/index.html?gdpr-targeting=1&gd_sdk_referrer_url=https%3A%2F%2Fgameforge.com%2Fen-US%2Flittlegames%2Fangry-fish%2F&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2dhbWVmb3JnZS5jb20vZW4tdXMvbGl0dGxlZ2FtZXMvYW5ncnktZmlzaC8iLCJwYXJlbnREb21haW4iOiJnYW1lZm9yZ2UuY29tIiwidG9wRG9tYWluIjoiZ2FtZWZvcmdlLmNvbSIsImhhc0ltcHJlc3Npb24iOnRydWUsImxvYWRlckVuYWJsZWQiOnRydWUsImhvc3QiOiJodG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbSIsInZlcnNpb24iOiIxLjUuMTgifQ%253D%253D",
+        "isDetail": false,
+        "stars": 5,
+        "tags": ["fishing", "arcade", "casual", "underwater", "adventure"],
+        "badges": ["hot"],
+        "seo": {
+            "title": "Angry Fish - Exciting Underwater Arcade Game",
+            "description": "Play Angry Fish and dive into an exciting underwater adventure! Dodge obstacles, collect bonuses, and unlock new levels in this fun arcade fish game.",
+            "keywords": "angry fish, underwater game, arcade fish, casual fish game, fish adventure, fun fish game"
+        },
+        "categories": ["adventure"],
+        "size": "small",
+        "detailsHtml": `
+            <h3>Ready for an Underwater Adventure?</h3>
+            <p><b>Angry Fish</b> is an exciting arcade game where your reflexes and timing are key. Navigate your fish through colorful underwater obstacles, avoid enemies, and collect bonuses to achieve the highest score possible. Every level brings new challenges and surprises!</p>
+            
+            <h3>Game Features</h3>
+            <ul>
+                <li><b>Easy to Play:</b> Tap or swipe to control your fish with intuitive and responsive mechanics suitable for all players.</li>
+                <li><b>Vibrant Underwater World:</b> Explore colorful ocean environments filled with animated fish, coral, and hidden treasures.</li>
+                <li><b>Challenging Levels:</b> Dodge obstacles, avoid predators, and maneuver through tricky underwater paths for a thrilling experience.</li>
+                <li><b>Arcade Fun:</b> Fast-paced gameplay with rewarding combos, score multipliers, and exciting bonuses to keep you hooked.</li>
+            </ul>
+            
+            <h3>Dive, Dodge, and Dominate!</h3>
+            <p>Jump into <b>Angry Fish</b> and see how far you can navigate through the underwater world. Perfect for short bursts of fun or extended arcade sessions, this game is designed to challenge your skills while providing endless entertainment. Can you master the ocean and become the ultimate angry fish?</p>
+        `
+    },
+
+    {
+        "id": 71,
+        "title": "Green Lake",
+        "addressBar": "green-lake",
+        "publishDate": "2025-09-01",
+        "imageUrl": "/images/games/fish-71.webp",
+        "imageAlt": "Green Lake game screen showing a serene lake environment with fish, lily pads, and a fishing boat.",
+        "iframeUrl": "https://html5.gamedistribution.com/rvvASMiM/aee249e6543b41c7893c936d46511ad5/index.html?gdpr-targeting=1&gd_sdk_referrer_url=https%3A%2F%2Fgameforge.com%2Fen-US%2Flittlegames%2Fgreen-lake%2F&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2dhbWVmb3JnZS5jb20vZW4tdXMvbGl0dGxlZ2FtZXMvZ3JlZW4tbGFrZS8iLCJwYXJlbnREb21haW4iOiJnYW1lZm9yZ2UuY29tIiwidG9wRG9tYWluIjoiZ2FtZWZvcmdlLmNvbSIsImhhc0ltcHJlc3Npb24iOnRydWUsImxvYWRlckVuYWJsZWQiOnRydWUsImhvc3QiOiJodG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbSIsInZlcnNpb24iOiIxLjUuMTgifQ%253D%253D",
+        "isDetail": false,
+        "stars": 5,
+        "tags": ["fishing", "casual", "relaxing", "adventure", "lake"],
+        "badges": ["hot"],
+        "seo": {
+            "title": "Green Lake - Relaxing Fishing Adventure Game",
+            "description": "Play Green Lake and enjoy a serene fishing experience! Catch different types of fish, explore the lake, and relax in this casual arcade fishing game.",
+            "keywords": "green lake, fishing game, casual fishing, relaxing game, lake adventure, fish catching game"
+        },
+        "categories": ["fishing"],
+        "size": "small",
+        "detailsHtml": `
+            <h3>Escape to a Tranquil Fishing Spot</h3>
+            <p><b>Green Lake</b> offers a calm and relaxing fishing adventure. Cast your line, explore the beautiful lake environment, and try to catch a variety of fish while enjoying the peaceful scenery. Perfect for players looking to unwind and enjoy casual gameplay.</p>
+            
+            <h3>Game Features</h3>
+            <ul>
+                <li><b>Simple Controls:</b> Tap or click to cast your line and reel in fish with intuitive gameplay suitable for all ages.</li>
+                <li><b>Beautiful Lake Environment:</b> Explore a lush green lake complete with lily pads, reeds, and a variety of aquatic life.</li>
+                <li><b>Variety of Fish:</b> From small minnows to larger catches, discover different species swimming around the lake.</li>
+                <li><b>Casual and Relaxing:</b> No time limits or pressure—play at your own pace while enjoying a peaceful fishing experience.</li>
+            </ul>
+            
+            <h3>Cast, Catch, and Relax!</h3>
+            <p>Dive into <b>Green Lake</b> and see how many fish you can catch. With its relaxing ambiance and casual gameplay, the game is perfect for short breaks or long leisurely sessions. Can you become the master angler of Green Lake?</p>
+        `
     }
+
+
 
 
 
