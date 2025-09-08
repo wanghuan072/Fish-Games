@@ -20,29 +20,23 @@
 
       <!-- 桌面端导航 -->
       <nav class="main-nav desktop-nav">
-        <router-link to="/" class="nav-link">Home</router-link>
-        <router-link to="/games" class="nav-link">Games</router-link>
-        <router-link to="/hot-games" class="nav-link">Hot Games</router-link>
-        <router-link to="/new-games" class="nav-link">New Games</router-link>
-        <router-link to="/updated-games" class="nav-link">Updated Games</router-link>
-        <router-link to="/blog" class="nav-link">Blog</router-link>
+        <a href="/" class="nav-link">Home</a>
+        <a href="/games" class="nav-link">Games</a>
+        <a href="/hot-games" class="nav-link">Hot Games</a>
+        <a href="/new-games" class="nav-link">New Games</a>
+        <a href="/updated-games" class="nav-link">Updated Games</a>
+        <a href="/blog" class="nav-link">Blog</a>
       </nav>
     </div>
 
     <!-- 移动端导航菜单 -->
     <nav class="mobile-nav" :class="{ open: isMenuOpen }">
-      <router-link to="/" class="mobile-nav-link" @click="closeMenu">Home</router-link>
-      <router-link to="/games" class="mobile-nav-link" @click="closeMenu">Games</router-link>
-      <router-link to="/hot-games" class="mobile-nav-link" @click="closeMenu"
-        >Hot Games</router-link
-      >
-      <router-link to="/new-games" class="mobile-nav-link" @click="closeMenu"
-        >New Games</router-link
-      >
-      <router-link to="/updated-games" class="mobile-nav-link" @click="closeMenu"
-        >Updated Games</router-link
-      >
-      <router-link to="/blog" class="mobile-nav-link" @click="closeMenu">Blog</router-link>
+      <a href="/" class="mobile-nav-link" @click="closeMenu">Home</a>
+      <a href="/games" class="mobile-nav-link" @click="closeMenu">Games</a>
+      <a href="/hot-games" class="mobile-nav-link" @click="closeMenu">Hot Games</a>
+      <a href="/new-games" class="mobile-nav-link" @click="closeMenu">New Games</a>
+      <a href="/updated-games" class="mobile-nav-link" @click="closeMenu">Updated Games</a>
+      <a href="/blog" class="mobile-nav-link" @click="closeMenu">Blog</a>
     </nav>
 
     <!-- 遮罩层 -->

@@ -47,12 +47,12 @@
       <div class="footer-section">
         <h3 class="section-title">Quick Links</h3>
         <ul class="footer-links">
-          <li><router-link to="/" class="footer-link">Home</router-link></li>
-          <li><router-link to="/games" class="footer-link">Games</router-link></li>
-          <li><router-link to="/hot-games" class="footer-link">Hot Games</router-link></li>
-          <li><router-link to="/new-games" class="footer-link">New Games</router-link></li>
-          <li><router-link to="/updated-games" class="footer-link">Updated Games</router-link></li>
-          <li><router-link to="/blog" class="footer-link">Blog</router-link></li>
+          <li><a href="/" class="footer-link">Home</a></li>
+          <li><a href="/games" class="footer-link">Games</a></li>
+          <li><a href="/hot-games" class="footer-link">Hot Games</a></li>
+          <li><a href="/new-games" class="footer-link">New Games</a></li>
+          <li><a href="/updated-games" class="footer-link">Updated Games</a></li>
+          <li><a href="/blog" class="footer-link">Blog</a></li>
         </ul>
       </div>
 
@@ -61,24 +61,16 @@
         <h3 class="section-title">Game Categories</h3>
         <ul class="footer-links">
           <li>
-            <router-link to="/games/category/fishing" class="footer-link"
-              >Fishing Simulation Games</router-link
-            >
+            <a href="/games/category/fishing" class="footer-link">Fishing Simulation Games</a>
           </li>
           <li>
-            <router-link to="/games/category/aquarium" class="footer-link"
-              >Aquarium & Fish Breeding Games</router-link
-            >
+            <a href="/games/category/aquarium" class="footer-link">Aquarium & Fish Breeding Games</a>
           </li>
           <li>
-            <router-link to="/games/category/adventure" class="footer-link"
-              >Fish Action & Adventure Games</router-link
-            >
+            <a href="/games/category/adventure" class="footer-link">Fish Action & Adventure Games</a>
           </li>
           <li>
-            <router-link to="/games/category/puzzle" class="footer-link"
-              >Fish-themed Puzzle & Match Games</router-link
-            >
+            <a href="/games/category/puzzle" class="footer-link">Fish-themed Puzzle & Match Games</a>
           </li>
         </ul>
       </div>
@@ -87,13 +79,11 @@
       <div class="footer-section">
         <h3 class="section-title">Legal</h3>
         <ul class="footer-links">
-          <li>
-            <router-link to="/privacy-policy" class="footer-link">Privacy Policy</router-link>
-          </li>
-          <li><router-link to="/terms-of-use" class="footer-link">Terms of Use</router-link></li>
-          <li><router-link to="/copyright" class="footer-link">Copyright</router-link></li>
-          <li><router-link to="/about-us" class="footer-link">About Us</router-link></li>
-          <li><router-link to="/contact-us" class="footer-link">Contact Us</router-link></li>
+          <li><a href="/privacy-policy" class="footer-link">Privacy Policy</a></li>
+          <li><a href="/terms-of-use" class="footer-link">Terms of Use</a></li>
+          <li><a href="/copyright" class="footer-link">Copyright</a></li>
+          <li><a href="/about-us" class="footer-link">About Us</a></li>
+          <li><a href="/contact-us" class="footer-link">Contact Us</a></li>
         </ul>
       </div>
     </div>

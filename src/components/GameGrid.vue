@@ -5,7 +5,7 @@
         <h2 class="category-title title-h2">{{ title }}</h2>
         <p v-if="description" class="category-description">{{ description }}</p>
       </div>
-      <router-link v-if="moreTo" :to="moreTo" class="more-link">More →</router-link>
+      <a v-if="moreTo" :href="moreTo" class="more-link">More →</a>
     </div>
 
     <div class="games-grid">
