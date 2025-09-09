@@ -13,16 +13,16 @@
       <div v-else-if="!game" class="not-found-container">
         <h1>Game Not Found</h1>
         <p>The game you're looking for doesn't exist.</p>
-        <router-link to="/games" class="back-button">Back to Games</router-link>
+        <a href="/games" class="back-button">Back to Games</a>
       </div>
 
       <!-- 信息页 -->
       <div v-else class="game-info">
         <!-- 面包屑 -->
         <nav class="breadcrumb">
-          <router-link to="/">Home</router-link>
+          <a href="/">Home</a>
           <span class="separator">></span>
-          <router-link to="/games">Games</router-link>
+          <a href="/games">Games</a>
           <span class="separator">></span>
           <span class="current">{{ game.title }}</span>
         </nav>

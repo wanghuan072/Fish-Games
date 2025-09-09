@@ -11,20 +11,19 @@
 
         <!-- Tabs -->
         <nav class="tabs">
-          <router-link
-            :to="{ name: 'games' }"
+          <a
+            :href="{ name: 'games' }"
             class="tab-link"
             :class="{ active: !activeCategoryId }"
-            >All Games</router-link
+            >All Games</a
           >
-          <router-link
+          <a
             v-for="cat in categories"
             :key="cat.id"
-            :to="{ name: 'games-category', params: { categoryId: cat.id } }"
+            :href="{ name: 'games-category', params: { categoryId: cat.id } }"
             class="tab-link"
             :class="{ active: activeCategoryId === cat.id }"
-            >{{ cat.name }}</router-link
-          >
+            >{{ cat.name }}</a>
         </nav>
 
         <GameGrid :category="activeCategoryId || null" />

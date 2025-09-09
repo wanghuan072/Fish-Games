@@ -13,16 +13,16 @@
       <div v-else-if="!blog" class="not-found-container">
         <h1>Article Not Found</h1>
         <p>The article you're looking for doesn't exist.</p>
-        <router-link to="/blog" class="back-button">Back to Blog</router-link>
+        <a href="/blog" class="back-button">Back to Blog</a>
       </div>
 
       <!-- 博客详情 -->
       <div v-else class="blog-detail">
         <!-- 面包屑导航 -->
         <nav class="breadcrumb">
-          <router-link to="/">Home</router-link>
+          <a href="/">Home</a>
           <span class="separator">></span>
-          <router-link to="/blog">Blog</router-link>
+          <a href="/blog">Blog</a>
           <span class="separator">></span>
           <span class="current">{{ blog.title }}</span>
         </nav>
@@ -51,7 +51,7 @@
 
         <!-- 返回按钮 -->
         <div class="navigation-actions">
-          <router-link to="/blog" class="back-button">← Back to Blog</router-link>
+          <a href="/blog" class="back-button">← Back to Blog</a>
         </div>
       </div>
     </main>
